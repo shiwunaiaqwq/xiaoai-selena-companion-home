@@ -1,0 +1,18 @@
+# Runtime identities, memories and credentials are never shared.
+**/.godot/
+**/node_modules/
+**/renderer_node_modules/
+**/__pycache__/
+**/*.pyc
+**/*.sqlite*
+**/*.db
+**/*.log
+**/*.import
+**/*.exe
+**/*.pck
+runtime/
+character-edition/data*/
+.env
+.env.*
+!*.example
+config.local.json

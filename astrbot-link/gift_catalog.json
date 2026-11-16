@@ -1,0 +1,715 @@
+{
+  "version": "home-gifts/1",
+  "wallet": {
+    "start": 30,
+    "daily": 20,
+    "cap": 80
+  },
+  "items": [
+    {
+      "id": "paper_plane",
+      "name": "纸飞机挂饰",
+      "price": 8,
+      "category": "纪念",
+      "theme": "xiaoai",
+      "description": "把想一起去的远方，收成一枚可以随身带的小挂饰",
+      "location": "挂在随身物件上",
+      "charges": 0,
+      "actions": [
+        "balcony_view",
+        "park_walk"
+      ],
+      "atlas": "res://assets/home-gifts/xiaoai.png",
+      "region": [
+        0.0,
+        0.0,
+        313.5,
+        313.5
+      ],
+      "provenance": "依人物现有人设与居家兴趣设计的礼物，不冒充原作已拥有物品"
+    },
+    {
+      "id": "song_notebook",
+      "name": "曲调手账",
+      "price": 10,
+      "category": "创作",
+      "theme": "xiaoai",
+      "description": "留给新旋律、灵光一现和还没写完的歌词",
+      "location": "练歌角的手边",
+      "charges": 0,
+      "actions": [
+        "lyrics"
+      ],
+      "atlas": "res://assets/home-gifts/xiaoai.png",
+      "region": [
+        313.5,
+        0.0,
+        313.5,
+        313.5
+      ],
+      "provenance": "依人物现有人设与居家兴趣设计的礼物，不冒充原作已拥有物品"
+    },
+    {
+      "id": "mic_charm",
+      "name": "小麦克风挂件",
+      "price": 6,
+      "category": "收藏",
+      "theme": "xiaoai",
+      "description": "一枚轻巧的粉白麦克风，留给喜欢唱歌的她",
+      "location": "练歌角的收纳格",
+      "charges": 0,
+      "actions": [
+        "sing_practice"
+      ],
+      "atlas": "res://assets/home-gifts/xiaoai.png",
+      "region": [
+        627.0,
+        0.0,
+        313.5,
+        313.5
+      ],
+      "provenance": "依人物现有人设与居家兴趣设计的礼物，不冒充原作已拥有物品"
+    },
+    {
+      "id": "gamepad",
+      "name": "双人游戏手柄",
+      "price": 24,
+      "category": "游戏",
+      "theme": "xiaoai",
+      "description": "多准备一只手柄，也多留一个一起玩的座位",
+      "location": "客厅游戏角",
+      "charges": 0,
+      "actions": [
+        "game_round"
+      ],
+      "atlas": "res://assets/home-gifts/xiaoai.png",
+      "region": [
+        940.5,
+        0.0,
+        313.5,
+        313.5
+      ],
+      "provenance": "依人物现有人设与居家兴趣设计的礼物，不冒充原作已拥有物品"
+    },
+    {
+      "id": "heart_music_box",
+      "name": "心形音乐盒",
+      "price": 20,
+      "category": "收藏",
+      "theme": "xiaoai",
+      "description": "粉蓝小盒子里装着一段安静的旋律",
+      "location": "卧室床头柜",
+      "charges": 0,
+      "actions": [
+        "sofa_music",
+        "bed_phone"
+      ],
+      "atlas": "res://assets/home-gifts/xiaoai.png",
+      "region": [
+        0.0,
+        313.5,
+        313.5,
+        313.5
+      ],
+      "provenance": "依人物现有人设与居家兴趣设计的礼物，不冒充原作已拥有物品"
+    },
+    {
+      "id": "photo_album",
+      "name": "回忆相册",
+      "price": 16,
+      "category": "纪念",
+      "theme": "xiaoai",
+      "description": "空着的相页，慢慢留给后来一起走过的日子",
+      "location": "客厅相册架",
+      "charges": 0,
+      "actions": [
+        "album"
+      ],
+      "atlas": "res://assets/home-gifts/xiaoai.png",
+      "region": [
+        313.5,
+        313.5,
+        313.5,
+        313.5
+      ],
+      "provenance": "依人物现有人设与居家兴趣设计的礼物，不冒充原作已拥有物品"
+    },
+    {
+      "id": "blue_white_ribbon",
+      "name": "蓝白缎带发饰",
+      "price": 8,
+      "category": "日常",
+      "theme": "xiaoai",
+      "description": "蓝白缎带小饰物，可以搭配当天的心情",
+      "location": "卧室梳妆处",
+      "charges": 0,
+      "actions": [
+        "mirror",
+        "wardrobe"
+      ],
+      "atlas": "res://assets/home-gifts/xiaoai.png",
+      "region": [
+        627.0,
+        313.5,
+        313.5,
+        313.5
+      ],
+      "provenance": "依人物现有人设与居家兴趣设计的礼物，不冒充原作已拥有物品"
+    },
+    {
+      "id": "star_stickers",
+      "name": "星光贴纸",
+      "price": 3,
+      "category": "创作",
+      "theme": "xiaoai",
+      "description": "小星星贴纸，装点手账和收纳的小角落",
+      "location": "练歌角的手账旁",
+      "charges": 0,
+      "actions": [
+        "lyrics",
+        "album"
+      ],
+      "atlas": "res://assets/home-gifts/xiaoai.png",
+      "region": [
+        940.5,
+        313.5,
+        313.5,
+        313.5
+      ],
+      "provenance": "依人物现有人设与居家兴趣设计的礼物，不冒充原作已拥有物品"
+    },
+    {
+      "id": "cocoa",
+      "name": "热可可",
+      "price": 4,
+      "category": "茶点",
+      "theme": "xiaoai",
+      "description": "一杯暖暖的可可，适合手边的小歇息",
+      "location": "厨房杯架",
+      "charges": 1,
+      "actions": [
+        "sofa_rest",
+        "breakfast"
+      ],
+      "atlas": "res://assets/home-gifts/xiaoai.png",
+      "region": [
+        0.0,
+        627.0,
+        313.5,
+        313.5
+      ],
+      "provenance": "依人物现有人设与居家兴趣设计的礼物，不冒充原作已拥有物品"
+    },
+    {
+      "id": "honey_lemon",
+      "name": "蜂蜜柠檬饮",
+      "price": 5,
+      "category": "茶点",
+      "theme": "xiaoai",
+      "description": "清甜的蜂蜜柠檬，练习间隙慢慢喝",
+      "location": "厨房饮品架",
+      "charges": 1,
+      "actions": [
+        "sing_practice",
+        "listen_take"
+      ],
+      "atlas": "res://assets/home-gifts/xiaoai.png",
+      "region": [
+        313.5,
+        627.0,
+        313.5,
+        313.5
+      ],
+      "provenance": "依人物现有人设与居家兴趣设计的礼物，不冒充原作已拥有物品"
+    },
+    {
+      "id": "strawberry_roll",
+      "name": "草莓奶油卷",
+      "price": 6,
+      "category": "茶点",
+      "theme": "xiaoai",
+      "description": "一小份草莓点心，留一点甜给平常的一天",
+      "location": "厨房点心盒",
+      "charges": 1,
+      "actions": [
+        "breakfast",
+        "sofa_rest"
+      ],
+      "atlas": "res://assets/home-gifts/xiaoai.png",
+      "region": [
+        627.0,
+        627.0,
+        313.5,
+        313.5
+      ],
+      "provenance": "依人物现有人设与居家兴趣设计的礼物，不冒充原作已拥有物品"
+    },
+    {
+      "id": "star_cookies",
+      "name": "星星曲奇盒",
+      "price": 8,
+      "category": "分享",
+      "theme": "xiaoai",
+      "description": "装着星星形状曲奇的小盒子，适合分着吃",
+      "location": "厨房点心架",
+      "charges": 3,
+      "actions": [
+        "sofa_rest",
+        "breakfast"
+      ],
+      "atlas": "res://assets/home-gifts/xiaoai.png",
+      "region": [
+        940.5,
+        627.0,
+        313.5,
+        313.5
+      ],
+      "provenance": "依人物现有人设与居家兴趣设计的礼物，不冒充原作已拥有物品"
+    },
+    {
+      "id": "recording_tape",
+      "name": "可写录音带",
+      "price": 8,
+      "category": "创作",
+      "theme": "xiaoai",
+      "description": "收下想记住的声音，也给下一段歌声留空位",
+      "location": "练歌角录音收纳处",
+      "charges": 0,
+      "actions": [
+        "listen_take",
+        "sing_practice"
+      ],
+      "atlas": "res://assets/home-gifts/xiaoai.png",
+      "region": [
+        0.0,
+        940.5,
+        313.5,
+        313.5
+      ],
+      "provenance": "依人物现有人设与居家兴趣设计的礼物，不冒充原作已拥有物品"
+    },
+    {
+      "id": "plane_bookmark",
+      "name": "纸飞机书签",
+      "price": 4,
+      "category": "纪念",
+      "theme": "xiaoai",
+      "description": "书页间的一只小飞机，停在暂时读到的地方",
+      "location": "客厅书架",
+      "charges": 0,
+      "actions": [
+        "sofa_read",
+        "album"
+      ],
+      "atlas": "res://assets/home-gifts/xiaoai.png",
+      "region": [
+        313.5,
+        940.5,
+        313.5,
+        313.5
+      ],
+      "provenance": "依人物现有人设与居家兴趣设计的礼物，不冒充原作已拥有物品"
+    },
+    {
+      "id": "rose_blanket",
+      "name": "柔软小毯子",
+      "price": 12,
+      "category": "日常",
+      "theme": "xiaoai",
+      "description": "一条柔软的小毯子，陪她在沙发或床上歇一会儿",
+      "location": "客厅毯子篮",
+      "charges": 0,
+      "actions": [
+        "sofa_rest",
+        "sleep",
+        "bed_phone"
+      ],
+      "atlas": "res://assets/home-gifts/xiaoai.png",
+      "region": [
+        627.0,
+        940.5,
+        313.5,
+        313.5
+      ],
+      "provenance": "依人物现有人设与居家兴趣设计的礼物，不冒充原作已拥有物品"
+    },
+    {
+      "id": "window_plant",
+      "name": "窗边小绿植",
+      "price": 10,
+      "category": "日常",
+      "theme": "xiaoai",
+      "description": "一盆慢慢长大的绿植，给窗边添一点生机",
+      "location": "自己的阳台",
+      "charges": 0,
+      "actions": [
+        "balcony_plants"
+      ],
+      "atlas": "res://assets/home-gifts/xiaoai.png",
+      "region": [
+        940.5,
+        940.5,
+        313.5,
+        313.5
+      ],
+      "provenance": "依人物现有人设与居家兴趣设计的礼物，不冒充原作已拥有物品"
+    },
+    {
+      "id": "iris_bouquet",
+      "name": "鸢尾花束",
+      "price": 12,
+      "category": "鲜花",
+      "theme": "selena",
+      "description": "紫色鸢尾与素色包纸，留给一段值得记下的日常",
+      "location": "卧室书桌旁",
+      "charges": 0,
+      "actions": [
+        "write_letter",
+        "write_diary"
+      ],
+      "atlas": "res://assets/home-gifts/selena.png",
+      "region": [
+        0.0,
+        0.0,
+        313.5,
+        313.5
+      ],
+      "provenance": "依人物现有人设与居家兴趣设计的礼物，不冒充原作已拥有物品"
+    },
+    {
+      "id": "score_notebook",
+      "name": "空白五线谱本",
+      "price": 10,
+      "category": "创作",
+      "theme": "selena",
+      "description": "干净的谱页，留给尚未落笔的下一段旋律",
+      "location": "音乐工作室谱架",
+      "charges": 0,
+      "actions": [
+        "score",
+        "piano"
+      ],
+      "atlas": "res://assets/home-gifts/selena.png",
+      "region": [
+        313.5,
+        0.0,
+        313.5,
+        313.5
+      ],
+      "provenance": "依人物现有人设与居家兴趣设计的礼物，不冒充原作已拥有物品"
+    },
+    {
+      "id": "fountain_pen",
+      "name": "蓝紫钢笔",
+      "price": 14,
+      "category": "书信",
+      "theme": "selena",
+      "description": "一支写起来顺手的钢笔，陪她慢慢把话写完",
+      "location": "卧室书桌笔架",
+      "charges": 0,
+      "actions": [
+        "write_letter",
+        "write_diary"
+      ],
+      "atlas": "res://assets/home-gifts/selena.png",
+      "region": [
+        627.0,
+        0.0,
+        313.5,
+        313.5
+      ],
+      "provenance": "依人物现有人设与居家兴趣设计的礼物，不冒充原作已拥有物品"
+    },
+    {
+      "id": "stationery",
+      "name": "蜡封信纸套装",
+      "price": 8,
+      "category": "书信",
+      "theme": "selena",
+      "description": "素色信纸与紫色封蜡，收好想亲口告诉你的心意",
+      "location": "卧室书桌抽屉",
+      "charges": 0,
+      "actions": [
+        "write_letter",
+        "read_letters"
+      ],
+      "atlas": "res://assets/home-gifts/selena.png",
+      "region": [
+        940.5,
+        0.0,
+        313.5,
+        313.5
+      ],
+      "provenance": "依人物现有人设与居家兴趣设计的礼物，不冒充原作已拥有物品"
+    },
+    {
+      "id": "violin_rosin",
+      "name": "小提琴松香",
+      "price": 8,
+      "category": "创作",
+      "theme": "selena",
+      "description": "一小盒乐器保养用品，放在工作室里随手可取",
+      "location": "音乐工作室器乐柜",
+      "charges": 0,
+      "actions": [
+        "violin_cabinet"
+      ],
+      "atlas": "res://assets/home-gifts/selena.png",
+      "region": [
+        0.0,
+        313.5,
+        313.5,
+        313.5
+      ],
+      "provenance": "依人物现有人设与居家兴趣设计的礼物，不冒充原作已拥有物品"
+    },
+    {
+      "id": "score_folder",
+      "name": "乐谱夹",
+      "price": 10,
+      "category": "创作",
+      "theme": "selena",
+      "description": "把正在修改与暂时写好的谱页分开收好",
+      "location": "音乐工作室谱架",
+      "charges": 0,
+      "actions": [
+        "score",
+        "music_review"
+      ],
+      "atlas": "res://assets/home-gifts/selena.png",
+      "region": [
+        313.5,
+        313.5,
+        313.5,
+        313.5
+      ],
+      "provenance": "依人物现有人设与居家兴趣设计的礼物，不冒充原作已拥有物品"
+    },
+    {
+      "id": "iris_bookmark",
+      "name": "鸢尾刺绣书签",
+      "price": 6,
+      "category": "书信",
+      "theme": "selena",
+      "description": "一枚柔软书签，夹在书页或暂时停下的乐谱之间",
+      "location": "卧室手边的书里",
+      "charges": 0,
+      "actions": [
+        "read_bedroom",
+        "sofa_read"
+      ],
+      "atlas": "res://assets/home-gifts/selena.png",
+      "region": [
+        627.0,
+        313.5,
+        313.5,
+        313.5
+      ],
+      "provenance": "依人物现有人设与居家兴趣设计的礼物，不冒充原作已拥有物品"
+    },
+    {
+      "id": "ticket_holder",
+      "name": "演出纪念票夹",
+      "price": 10,
+      "category": "纪念",
+      "theme": "selena",
+      "description": "空白票夹，留给未来真正一起看过的演出",
+      "location": "卧室纪念抽屉",
+      "charges": 0,
+      "actions": [
+        "read_letters",
+        "write_diary"
+      ],
+      "atlas": "res://assets/home-gifts/selena.png",
+      "region": [
+        940.5,
+        313.5,
+        313.5,
+        313.5
+      ],
+      "provenance": "依人物现有人设与居家兴趣设计的礼物，不冒充原作已拥有物品"
+    },
+    {
+      "id": "flower_tea",
+      "name": "清淡花茶罐",
+      "price": 8,
+      "category": "茶点",
+      "theme": "selena",
+      "description": "一小罐清淡花茶，适合在创作间隙慢慢泡开",
+      "location": "厨房茶柜",
+      "charges": 3,
+      "actions": [
+        "brew_tea",
+        "drink_tea"
+      ],
+      "atlas": "res://assets/home-gifts/selena.png",
+      "region": [
+        0.0,
+        627.0,
+        313.5,
+        313.5
+      ],
+      "provenance": "依人物现有人设与居家兴趣设计的礼物，不冒充原作已拥有物品"
+    },
+    {
+      "id": "ivory_cup",
+      "name": "白瓷茶杯",
+      "price": 12,
+      "category": "日常",
+      "theme": "selena",
+      "description": "素净的白瓷杯碟，给平常喝茶留一点仪式感",
+      "location": "厨房杯架",
+      "charges": 0,
+      "actions": [
+        "brew_tea",
+        "drink_tea"
+      ],
+      "atlas": "res://assets/home-gifts/selena.png",
+      "region": [
+        313.5,
+        627.0,
+        313.5,
+        313.5
+      ],
+      "provenance": "依人物现有人设与居家兴趣设计的礼物，不冒充原作已拥有物品"
+    },
+    {
+      "id": "butter_biscuits",
+      "name": "低糖黄油饼干",
+      "price": 6,
+      "category": "茶点",
+      "theme": "selena",
+      "description": "不过分甜的一小盒饼干，适合配茶分享",
+      "location": "厨房点心架",
+      "charges": 3,
+      "actions": [
+        "drink_tea",
+        "sofa_rest"
+      ],
+      "atlas": "res://assets/home-gifts/selena.png",
+      "region": [
+        627.0,
+        627.0,
+        313.5,
+        313.5
+      ],
+      "provenance": "依人物现有人设与居家兴趣设计的礼物，不冒充原作已拥有物品"
+    },
+    {
+      "id": "lemon_scone",
+      "name": "柠檬司康",
+      "price": 6,
+      "category": "茶点",
+      "theme": "selena",
+      "description": "一份清淡的小点心，留给午后或排练的小歇息",
+      "location": "厨房点心盒",
+      "charges": 1,
+      "actions": [
+        "drink_tea",
+        "breakfast"
+      ],
+      "atlas": "res://assets/home-gifts/selena.png",
+      "region": [
+        940.5,
+        627.0,
+        313.5,
+        313.5
+      ],
+      "provenance": "依人物现有人设与居家兴趣设计的礼物，不冒充原作已拥有物品"
+    },
+    {
+      "id": "essay_book",
+      "name": "散文随笔集",
+      "price": 12,
+      "category": "阅读",
+      "theme": "selena",
+      "description": "一本文字朴素的随笔集，留给音乐之外的闲暇",
+      "location": "卧室书架",
+      "charges": 0,
+      "actions": [
+        "read_bedroom",
+        "sofa_read"
+      ],
+      "atlas": "res://assets/home-gifts/selena.png",
+      "region": [
+        0.0,
+        940.5,
+        313.5,
+        313.5
+      ],
+      "provenance": "依人物现有人设与居家兴趣设计的礼物，不冒充原作已拥有物品"
+    },
+    {
+      "id": "metronome",
+      "name": "木制节拍器",
+      "price": 20,
+      "category": "创作",
+      "theme": "selena",
+      "description": "一只木制节拍器，陪她把还不顺的那一节慢慢练好",
+      "location": "音乐工作室钢琴旁",
+      "charges": 0,
+      "actions": [
+        "piano",
+        "score"
+      ],
+      "atlas": "res://assets/home-gifts/selena.png",
+      "region": [
+        313.5,
+        940.5,
+        313.5,
+        313.5
+      ],
+      "provenance": "依人物现有人设与居家兴趣设计的礼物，不冒充原作已拥有物品"
+    },
+    {
+      "id": "iris_scarf",
+      "name": "蓝紫轻围巾",
+      "price": 12,
+      "category": "日常",
+      "theme": "selena",
+      "description": "柔软的轻围巾，搭在出门时顺手能拿到的地方",
+      "location": "自己的衣柜",
+      "charges": 0,
+      "actions": [
+        "wardrobe",
+        "park_walk"
+      ],
+      "atlas": "res://assets/home-gifts/selena.png",
+      "region": [
+        627.0,
+        940.5,
+        313.5,
+        313.5
+      ],
+      "provenance": "依人物现有人设与居家兴趣设计的礼物，不冒充原作已拥有物品"
+    },
+    {
+      "id": "reading_lamp",
+      "name": "暖光阅读灯",
+      "price": 18,
+      "category": "日常",
+      "theme": "selena",
+      "description": "一盏小小的暖灯，照亮手边的书页与信笺",
+      "location": "卧室书桌",
+      "charges": 0,
+      "actions": [
+        "read_bedroom",
+        "write_letter",
+        "write_diary"
+      ],
+      "atlas": "res://assets/home-gifts/selena.png",
+      "region": [
+        940.5,
+        940.5,
+        313.5,
+        313.5
+      ],
+      "provenance": "依人物现有人设与居家兴趣设计的礼物，不冒充原作已拥有物品"
+    }
+  ],
+  "relationship": {
+    "selena": "姐姐",
+    "xiaoai": "妹妹",
+    "scope": "本小屋共同生活设定，不冒充原作亲属关系"
+  }
+}

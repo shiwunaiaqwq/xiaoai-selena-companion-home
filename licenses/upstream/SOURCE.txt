@@ -1,0 +1,2 @@
+本压缩包是可以直接玩的版本（不含 game\ 源码）。完整源码和美术在 GitHub 仓库里：https://github.com/BabyBus2022/cabin-world
+This download is the ready-to-play build. Full source and art are in the GitHub repository.

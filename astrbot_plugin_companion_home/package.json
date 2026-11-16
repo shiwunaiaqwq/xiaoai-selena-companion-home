@@ -1,0 +1,7 @@
+{
+  "name": "companion-home-renderer",
+  "private": true,
+  "dependencies": {
+    "playwright-core": "1.64.1"
+  }
+}

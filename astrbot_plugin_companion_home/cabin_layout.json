@@ -1,0 +1,387 @@
+{
+  "version": "cabin-home/3",
+  "name": "小屋世界 · 两层共同小屋",
+  "characters": [
+    "xiaoai",
+    "selena"
+  ],
+  "aliases": {
+    "common": {
+      "gaming": "living",
+      "memories": "living",
+      "window": "balcony"
+    },
+    "xiaoai": {
+      "study": "singing"
+    },
+    "selena": {
+      "study": "bedroom"
+    }
+  },
+  "legacy_names": {
+    "study": "书房",
+    "gaming": "游戏角",
+    "memories": "相册与回忆墙",
+    "window": "窗边小窝",
+    "bathroom": "浴室",
+    "street": "街上",
+    "bookstore": "书店",
+    "mall": "商场",
+    "cafe": "咖啡馆",
+    "cinema": "电影院"
+  },
+  "rooms": [
+    {
+      "id": "entrance",
+      "name": "入户与楼梯",
+      "icon": "door",
+      "area": "home",
+      "floor": "1F",
+      "scene": "xiaojingyu-home",
+      "zone": "xj_door",
+      "description": "一楼入户门与楼梯，出入家门、上下楼时经过的通道",
+      "furniture": [
+        "入户门",
+        "通往二楼的楼梯"
+      ]
+    },
+    {
+      "id": "kitchen",
+      "name": "厨房",
+      "icon": "cup",
+      "area": "home",
+      "floor": "1F",
+      "scene": "xiaojingyu-home",
+      "zone": "kitchen_sink",
+      "description": "一楼左上，洗手台、灶台和冰箱；备餐、做饭、冲茶在这里",
+      "furniture": [
+        "冰箱",
+        "备餐台",
+        "水槽",
+        "灶台"
+      ]
+    },
+    {
+      "id": "dining",
+      "name": "餐厅",
+      "icon": "cup",
+      "area": "home",
+      "floor": "1F",
+      "scene": "xiaojingyu-home",
+      "zone": {
+        "xiaoai": "dining_xiaoai",
+        "selena": "dining_selena"
+      },
+      "description": "一楼右上餐桌与座位，早餐、午餐、晚餐和用餐在这里",
+      "furniture": [
+        "餐桌",
+        "两人的餐椅"
+      ]
+    },
+    {
+      "id": "living",
+      "name": "客厅",
+      "icon": "sofa",
+      "area": "home",
+      "floor": "1F",
+      "scene": "xiaojingyu-home",
+      "zone": {
+        "xiaoai": "living_armchair",
+        "selena": "living_reading"
+      },
+      "description": "一楼公共客厅，有沙发、茶几、电视与扶手椅；打游戏、喝茶、看书或翻相册",
+      "furniture": [
+        "双人沙发",
+        "茶几",
+        "电视",
+        "游戏机",
+        "书柜"
+      ]
+    },
+    {
+      "id": "bathroom",
+      "name": "卫生间",
+      "icon": "drop",
+      "area": "home",
+      "floor": "1F",
+      "scene": "shared-home-bathroom",
+      "zone": "bath_sink",
+      "description": "一楼楼梯上方入口连接的现代日式卫生间，淋浴、白色浴缸、洗手台和卫生间",
+      "furniture": [
+        "洗手台",
+        "淋浴间",
+        "浴缸",
+        "毛巾架"
+      ]
+    },
+    {
+      "id": "bedroom",
+      "name": "卧室",
+      "names": {
+        "xiaoai": "小爱卧室",
+        "selena": "赛琳娜卧室 · 书房"
+      },
+      "icon": "bed",
+      "area": "home",
+      "floor": "2F",
+      "scene": "shared-home-upstairs",
+      "zone": {
+        "xiaoai": "xiaoai_bed",
+        "selena": "selena_bed"
+      },
+      "description": "二楼上方各自独立卧室；小爱在左、赛琳娜在右，有床、衣柜、穿衣镜与床头区域，睡觉盖被子",
+      "descriptions": {
+        "selena": "二楼右侧蓝紫色卧室兼书房，书桌可以读书、写作和写信，床边留着一盏灯，休息时盖好被子"
+      },
+      "furniture": [
+        "自己的床与被子",
+        "衣柜",
+        "穿衣镜",
+        "床头柜"
+      ],
+      "furniture_by_character": {
+        "selena": [
+          "自己的床与被子",
+          "衣柜",
+          "穿衣镜",
+          "卧室书桌",
+          "书信与手记"
+        ]
+      }
+    },
+    {
+      "id": "balcony",
+      "name": "卧室阳台",
+      "icon": "sun",
+      "area": "home",
+      "floor": "2F",
+      "scene": "shared-home-upstairs",
+      "zone": {
+        "xiaoai": "xiaoai_balcony",
+        "selena": "selena_balcony"
+      },
+      "description": "二楼各自卧室后侧的独立阳台，连接卧室，有栏杆，可看天色、吹风或照料盆栽",
+      "furniture": [
+        "各自阳台",
+        "栏杆",
+        "盆栽"
+      ],
+      "names": {
+        "xiaoai": "小爱阳台",
+        "selena": "赛琳娜阳台"
+      }
+    },
+    {
+      "id": "singing",
+      "name": "小爱练歌角",
+      "icon": "cup",
+      "area": "home",
+      "floor": "2F",
+      "characters": [
+        "xiaoai"
+      ],
+      "scene": "shared-home-upstairs",
+      "zone": "xiaoai_lyrics",
+      "description": "二楼左侧小爱的练歌区，有麦克风、谱架与练习座位，可以练歌、看谱或整理歌词",
+      "furniture": [
+        "麦克风",
+        "谱架",
+        "练习座位",
+        "音箱"
+      ]
+    },
+    {
+      "id": "music",
+      "name": "赛琳娜音乐工作室",
+      "icon": "book",
+      "area": "home",
+      "floor": "2F",
+      "characters": [
+        "selena"
+      ],
+      "scene": "shared-home-upstairs",
+      "zone": "selena_studio_entry",
+      "description": "二楼右侧赛琳娜的古典琴房，有胡桃木钢琴、紫色琴凳、小提琴与鸢尾花，可以弹琴、试奏或整理乐谱",
+      "furniture": [
+        "立式钢琴",
+        "琴凳",
+        "小提琴展柜",
+        "鸢尾花"
+      ]
+    },
+    {
+      "id": "park",
+      "name": "公园",
+      "icon": "leaf",
+      "area": "outside",
+      "floor": "outside",
+      "scene": "qianxia-park",
+      "zone": {
+        "xiaoai": "meadow",
+        "selena": "bench"
+      },
+      "description": "小屋外的公园，有草坪、长椅、小河与游乐设施",
+      "furniture": [
+        "草坪",
+        "长椅",
+        "河边",
+        "花圃"
+      ]
+    },
+    {
+      "id": "store",
+      "name": "小卖部",
+      "icon": "bag",
+      "area": "outside",
+      "floor": "outside",
+      "scene": "qianxia-shop",
+      "zone": {
+        "xiaoai": "snacks",
+        "selena": "magazines"
+      },
+      "description": "公园小卖部，可以买食品、饮料、日用品，也可以翻翻杂志",
+      "furniture": [
+        "食品与饮料货架",
+        "杂志架"
+      ]
+    },
+    {
+      "id": "arcade",
+      "name": "电玩城",
+      "icon": "sofa",
+      "area": "outside",
+      "floor": "outside",
+      "scene": "world-arcade",
+      "zone": {
+        "xiaoai": "arcade_blocks",
+        "selena": "arcade_xiangqi"
+      },
+      "description": "终点站电玩城，有游戏机台、棋桌和休息区",
+      "furniture": [
+        "游戏机台",
+        "棋桌",
+        "休息座位"
+      ]
+    },
+    {
+      "id": "onsen",
+      "name": "汤屋",
+      "icon": "drop",
+      "area": "outside",
+      "floor": "outside",
+      "scene": "world-onsen",
+      "zone": {
+        "xiaoai": "onsen_rest_a",
+        "selena": "onsen_rest_b"
+      },
+      "description": "与小卖部相连的汤屋，有更衣处、淋浴、浅池和休息区",
+      "furniture": [
+        "更衣柜",
+        "淋浴间",
+        "浅池",
+        "休息座位"
+      ]
+    },
+    {
+      "id": "restaurant",
+      "name": "外出餐厅",
+      "icon": "cup",
+      "area": "outside",
+      "floor": "outside",
+      "scene": "world-restaurant",
+      "zone": {
+        "xiaoai": "seat-a1_use",
+        "selena": "seat-a2_use"
+      },
+      "description": "公园旁的餐厅，出门吃饭时可以在这里坐下",
+      "furniture": [
+        "餐桌",
+        "座位",
+        "点餐台"
+      ]
+    }
+  ],
+  "interaction_zones": {
+    "bedroom": {
+      "xiaoai": [
+        "xiaoai_bed",
+        "xiaoai_wardrobe",
+        "xiaoai_mirror",
+        "xiaoai_nightstand"
+      ],
+      "selena": [
+        "selena_bed",
+        "selena_wardrobe",
+        "selena_mirror",
+        "selena_music",
+        "selena_diary"
+      ]
+    },
+    "balcony": {
+      "xiaoai": [
+        "xiaoai_balcony",
+        "xiaoai_balcony_door"
+      ],
+      "selena": [
+        "selena_balcony",
+        "selena_balcony_door"
+      ]
+    },
+    "living": [
+      "living_armchair",
+      "living_reading",
+      "sofa_xiaoai",
+      "sofa_selena",
+      "living_tv"
+    ],
+    "kitchen": [
+      "kitchen_sink",
+      "kitchen_stove",
+      "kitchen_fridge",
+      "cook_stove",
+      "kitchen_wash"
+    ],
+    "dining": [
+      "dining_seat",
+      "dining",
+      "dining_xiaoai",
+      "dining_selena"
+    ],
+    "singing": [
+      "xiaoai_sing",
+      "xiaoai_lyrics",
+      "xiaoai_practice_bench"
+    ],
+    "music": [
+      "selena_studio",
+      "selena_violin",
+      "selena_studio_entry"
+    ],
+    "onsen": [
+      "onsen_rest_a",
+      "onsen_rest_b",
+      "onsen_shower_a",
+      "onsen_shower_b",
+      "onsen_soak_a",
+      "onsen_soak_b"
+    ],
+    "bathroom": [
+      "bath_sink",
+      "bath_shower",
+      "bath_soak",
+      "bath_toilet",
+      "bath_towels"
+    ]
+  },
+  "daily_rhythm": {
+    "wake_minutes": {
+      "selena": 420,
+      "xiaoai": 460
+    },
+    "sleep_start": "00:00",
+    "ordinary_interval_minutes": [
+      20,
+      60
+    ]
+  }
+}

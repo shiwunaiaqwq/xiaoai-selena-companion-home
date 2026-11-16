@@ -1,0 +1,2358 @@
+{
+  "version": 1,
+  "scene": "xiaojingyu-home",
+  "cell": 32,
+  "columns": 30,
+  "rows": 20,
+  "catalog": [
+    {
+      "id": "xj-bed",
+      "name": "鲸鱼床",
+      "cell": [
+        3,
+        3
+      ],
+      "layer": "solid",
+      "box": [
+        109,
+        78,
+        76,
+        110
+      ],
+      "foot": [
+        112,
+        99,
+        68,
+        84
+      ],
+      "zoneIds": [
+        "xj_bed"
+      ]
+    },
+    {
+      "id": "xj-bookshelf",
+      "name": "书架",
+      "cell": [
+        14,
+        2
+      ],
+      "layer": "solid",
+      "box": [
+        464,
+        48,
+        87,
+        78
+      ],
+      "foot": [
+        466,
+        85,
+        83,
+        37
+      ],
+      "zoneIds": [
+        "xj_shelf"
+      ]
+    },
+    {
+      "id": "xj-writing_desk",
+      "name": "写字桌",
+      "cell": [
+        18,
+        5
+      ],
+      "layer": "solid",
+      "box": [
+        580,
+        160,
+        88,
+        58
+      ],
+      "foot": [
+        582,
+        178,
+        84,
+        28
+      ],
+      "zoneIds": [
+        "xj_notes"
+      ]
+    },
+    {
+      "id": "xj-desk",
+      "name": "电脑桌",
+      "cell": [
+        3,
+        11
+      ],
+      "layer": "solid",
+      "box": [
+        110,
+        335,
+        61,
+        111
+      ],
+      "foot": [
+        112,
+        369,
+        53,
+        59
+      ],
+      "zoneIds": [
+        "xj_desk"
+      ]
+    },
+    {
+      "id": "xj-computer-chair",
+      "name": "电脑椅",
+      "cell": [
+        5,
+        12
+      ],
+      "layer": "solid",
+      "box": [
+        137,
+        344,
+        110,
+        88.5
+      ],
+      "foot": [
+        168,
+        400,
+        29,
+        24
+      ],
+      "zoneIds": []
+    },
+    {
+      "id": "xj-desk-chair",
+      "name": "木椅",
+      "cell": [
+        19,
+        4
+      ],
+      "layer": "solid",
+      "box": [
+        607,
+        141,
+        32,
+        43
+      ],
+      "foot": [
+        610,
+        155,
+        24,
+        19
+      ],
+      "zoneIds": []
+    },
+    {
+      "id": "xj-easel",
+      "name": "画架",
+      "cell": [
+        23,
+        4
+      ],
+      "layer": "solid",
+      "box": [
+        744,
+        70,
+        52,
+        84
+      ],
+      "foot": [
+        751,
+        131,
+        39,
+        20
+      ],
+      "zoneIds": [
+        "xj_draw"
+      ]
+    },
+    {
+      "id": "xj-easel-seat",
+      "name": "画凳",
+      "cell": [
+        23,
+        5
+      ],
+      "layer": "solid",
+      "box": [
+        744,
+        158,
+        33,
+        32
+      ],
+      "foot": [
+        750,
+        176,
+        23,
+        11
+      ],
+      "zoneIds": []
+    },
+    {
+      "id": "xj-tank",
+      "name": "鱼缸",
+      "cell": [
+        22,
+        10
+      ],
+      "layer": "solid",
+      "box": [
+        722,
+        282,
+        100,
+        89
+      ],
+      "foot": [
+        725,
+        337,
+        93,
+        30
+      ],
+      "zoneIds": [
+        "xj_tank"
+      ]
+    },
+    {
+      "id": "xj-sofa",
+      "name": "沙发",
+      "cell": [
+        23,
+        13
+      ],
+      "layer": "solid",
+      "box": [
+        733,
+        387,
+        102,
+        81
+      ],
+      "foot": [
+        737,
+        431,
+        94,
+        31
+      ],
+      "zoneIds": [
+        "xj_sofa"
+      ]
+    },
+    {
+      "id": "xj-album-cabinet",
+      "name": "相册柜",
+      "cell": [
+        11,
+        10
+      ],
+      "layer": "solid",
+      "box": [
+        379,
+        289,
+        96,
+        65
+      ],
+      "foot": [
+        382,
+        337,
+        90,
+        12
+      ],
+      "zoneIds": [
+        "xj_album"
+      ]
+    },
+    {
+      "id": "xj-album-seat",
+      "name": "坐垫",
+      "cell": [
+        12,
+        11
+      ],
+      "layer": "floor",
+      "box": [
+        398,
+        357,
+        30,
+        22
+      ],
+      "foot": [
+        398,
+        367,
+        30,
+        12
+      ],
+      "zoneIds": []
+    },
+    {
+      "id": "xj-accessory_table",
+      "name": "手机收纳桌",
+      "cell": [
+        19,
+        12
+      ],
+      "layer": "solid",
+      "box": [
+        614,
+        376,
+        58,
+        48
+      ],
+      "foot": [
+        616,
+        401,
+        54,
+        20
+      ],
+      "zoneIds": [
+        "xj_accessories"
+      ]
+    },
+    {
+      "id": "xj-lamp-floor",
+      "name": "落地灯",
+      "cell": [
+        6,
+        3
+      ],
+      "layer": "solid",
+      "box": [
+        197,
+        77,
+        23,
+        45
+      ],
+      "foot": [
+        200,
+        108,
+        18,
+        11
+      ],
+      "zoneIds": []
+    },
+    {
+      "id": "xj-lamp-shelf",
+      "name": "小灯",
+      "cell": [
+        16,
+        1
+      ],
+      "layer": "surface",
+      "box": [
+        522,
+        29,
+        25,
+        26
+      ],
+      "foot": [
+        522,
+        43,
+        25,
+        12
+      ],
+      "zoneIds": []
+    },
+    {
+      "id": "xj-album",
+      "name": "相册",
+      "cell": [
+        12,
+        9
+      ],
+      "layer": "surface",
+      "box": [
+        401,
+        279,
+        50,
+        32
+      ],
+      "foot": [
+        401,
+        299,
+        50,
+        12
+      ],
+      "zoneIds": []
+    },
+    {
+      "id": "xj-desk-book",
+      "name": "笔记本",
+      "cell": [
+        18,
+        5
+      ],
+      "layer": "surface",
+      "box": [
+        607,
+        158,
+        40,
+        24
+      ],
+      "foot": [
+        607,
+        170,
+        40,
+        12
+      ],
+      "zoneIds": []
+    },
+    {
+      "id": "xj-phone",
+      "name": "手机",
+      "cell": [
+        19,
+        11
+      ],
+      "layer": "surface",
+      "box": [
+        622,
+        365,
+        11,
+        19
+      ],
+      "foot": [
+        622,
+        372,
+        11,
+        12
+      ],
+      "zoneIds": []
+    },
+    {
+      "id": "xj-plant-west",
+      "name": "盆栽",
+      "cell": [
+        21,
+        14
+      ],
+      "layer": "solid",
+      "box": [
+        695,
+        437,
+        33,
+        42
+      ],
+      "foot": [
+        699,
+        465,
+        24,
+        11
+      ],
+      "zoneIds": []
+    },
+    {
+      "id": "xj-rabbit",
+      "name": "兔子摆件",
+      "cell": [
+        15,
+        1
+      ],
+      "layer": "surface",
+      "box": [
+        492,
+        28,
+        19,
+        24
+      ],
+      "foot": [
+        492,
+        40,
+        19,
+        12
+      ],
+      "zoneIds": []
+    },
+    {
+      "id": "xj-ocean-rug",
+      "name": "波浪地毯",
+      "cell": [
+        8,
+        15
+      ],
+      "layer": "floor",
+      "box": [
+        279,
+        419,
+        191,
+        102
+      ],
+      "foot": [
+        279,
+        509,
+        191,
+        12
+      ],
+      "zoneIds": [
+        "xj_rug"
+      ]
+    },
+    {
+      "id": "chess-seat-left",
+      "name": "棋垫·左",
+      "cell": [
+        9,
+        14
+      ],
+      "layer": "floor",
+      "box": [
+        306,
+        450,
+        32,
+        25
+      ],
+      "foot": [
+        306,
+        463,
+        32,
+        12
+      ],
+      "zoneIds": [
+        "chess_xj_a"
+      ]
+    },
+    {
+      "id": "chess-seat-right",
+      "name": "棋垫·右",
+      "cell": [
+        12,
+        14
+      ],
+      "layer": "floor",
+      "box": [
+        408,
+        450,
+        32,
+        25
+      ],
+      "foot": [
+        408,
+        463,
+        32,
+        12
+      ],
+      "zoneIds": [
+        "chess_xj_b"
+      ]
+    },
+    {
+      "id": "xj-plant-shelf",
+      "name": "书架盆栽",
+      "cell": [
+        14,
+        1
+      ],
+      "layer": "surface",
+      "box": [
+        464,
+        26,
+        23,
+        28
+      ],
+      "foot": [
+        464,
+        42,
+        23,
+        12
+      ],
+      "zoneIds": []
+    },
+    {
+      "id": "xj-plant-desk",
+      "name": "桌面盆栽",
+      "cell": [
+        18,
+        4
+      ],
+      "layer": "surface",
+      "box": [
+        579,
+        142,
+        21,
+        28
+      ],
+      "foot": [
+        579,
+        158,
+        21,
+        12
+      ],
+      "zoneIds": []
+    },
+    {
+      "id": "xj-plant-east",
+      "name": "卧室盆栽",
+      "cell": [
+        10,
+        6
+      ],
+      "layer": "solid",
+      "box": [
+        322,
+        175,
+        36,
+        45
+      ],
+      "foot": [
+        327,
+        206,
+        26,
+        11
+      ],
+      "zoneIds": []
+    },
+    {
+      "id": "speaker-left",
+      "name": "音响·左",
+      "cell": [
+        3,
+        10
+      ],
+      "layer": "surface",
+      "box": [
+        115,
+        323,
+        14,
+        22
+      ],
+      "foot": [
+        115,
+        339,
+        14,
+        6
+      ],
+      "zoneIds": []
+    },
+    {
+      "id": "speaker-right",
+      "name": "音响·右",
+      "cell": [
+        4,
+        13
+      ],
+      "layer": "surface",
+      "box": [
+        146,
+        423,
+        14,
+        22
+      ],
+      "foot": [
+        146,
+        439,
+        14,
+        6
+      ],
+      "zoneIds": []
+    },
+    {
+      "id": "shared-stairs",
+      "name": "南向上楼·右侧出平台",
+      "cell": [
+        2,
+        10
+      ],
+      "layer": "floor",
+      "box": [
+        80,
+        340,
+        145,
+        202
+      ],
+      "foot": [
+        80,
+        360,
+        145,
+        182
+      ],
+      "zoneIds": [
+        "stairs_up"
+      ]
+    }
+  ],
+  "zoneOwners": {
+    "xj_bed": "xj-bed",
+    "xj_desk": "xj-desk",
+    "xj_shelf": "xj-bookshelf",
+    "xj_album": "xj-album-cabinet",
+    "xj_draw": "xj-easel",
+    "xj_notes": "xj-writing_desk",
+    "xj_accessories": "xj-accessory_table",
+    "xj_rug": "xj-ocean-rug",
+    "xj_tank": "xj-tank",
+    "xj_sofa": "xj-sofa",
+    "chess_xj_a": "chess-seat-left",
+    "chess_xj_b": "chess-seat-right"
+  },
+  "fixedObstacles": [
+    {
+      "x": 57,
+      "y": 253,
+      "w": 154,
+      "h": 79
+    },
+    {
+      "x": 301,
+      "y": 253,
+      "w": 265,
+      "h": 79
+    },
+    {
+      "x": 655,
+      "y": 253,
+      "w": 209,
+      "h": 79
+    },
+    {
+      "x": 404,
+      "y": 30,
+      "w": 26,
+      "h": 222
+    },
+    {
+      "x": 367,
+      "y": 40,
+      "w": 97,
+      "h": 127
+    },
+    {
+      "x": 800,
+      "y": 40,
+      "w": 74,
+      "h": 210
+    },
+    {
+      "x": 623,
+      "y": 482,
+      "w": 82,
+      "h": 136
+    },
+    {
+      "x": 807,
+      "y": 482,
+      "w": 76,
+      "h": 118
+    },
+    {
+      "x": 74,
+      "y": 547,
+      "w": 554,
+      "h": 72
+    },
+    {
+      "x": 64,
+      "y": 42,
+      "w": 16,
+      "h": 506
+    },
+    {
+      "x": 147,
+      "y": 373,
+      "w": 7,
+      "h": 100
+    },
+    {
+      "x": 80,
+      "y": 507,
+      "w": 145,
+      "h": 35
+    },
+    {
+      "x": 80,
+      "y": 148.75,
+      "w": 240.625,
+      "h": 36.25
+    },
+    {
+      "x": 78.75,
+      "y": 204.375,
+      "w": 39.375,
+      "h": 49.375
+    },
+    {
+      "x": 323.75,
+      "y": 158.125,
+      "w": 45,
+      "h": 35
+    },
+    {
+      "x": 481.25,
+      "y": 129.375,
+      "w": 87.5,
+      "h": 38.75
+    },
+    {
+      "x": 609.375,
+      "y": 167.5,
+      "w": 143.125,
+      "h": 61.25
+    },
+    {
+      "x": 626.25,
+      "y": 137.5,
+      "w": 39.375,
+      "h": 23.75
+    },
+    {
+      "x": 693.125,
+      "y": 137.5,
+      "w": 40,
+      "h": 23.75
+    },
+    {
+      "x": 628.125,
+      "y": 212.5,
+      "w": 41.25,
+      "h": 28.75
+    },
+    {
+      "x": 691.875,
+      "y": 212.5,
+      "w": 41.875,
+      "h": 28.75
+    },
+    {
+      "x": 376.375,
+      "y": 380.625,
+      "w": 176.25,
+      "h": 28.75
+    },
+    {
+      "x": 250.75,
+      "y": 438.125,
+      "w": 86.25,
+      "h": 48.75
+    },
+    {
+      "x": 415.125,
+      "y": 426.875,
+      "w": 96.875,
+      "h": 36.25
+    },
+    {
+      "x": 369.5,
+      "y": 472.5,
+      "w": 181.875,
+      "h": 46.875
+    },
+    {
+      "x": 553.25,
+      "y": 482.5,
+      "w": 43.75,
+      "h": 37.5
+    },
+    {
+      "x": 812.5,
+      "y": 396.875,
+      "w": 60.625,
+      "h": 58.75
+    }
+  ],
+  "defaultGroups": [],
+  "sceneData": {
+    "id": "xiaojingyu-home",
+    "name": "共同小屋 · 一楼",
+    "outdoor": false,
+    "width": 960,
+    "height": 640,
+    "walk": {
+      "x": 84,
+      "y": 69,
+      "w": 860,
+      "h": 555
+    },
+    "speed": 100,
+    "run": 190,
+    "clearance": 5,
+    "entries": {
+      "door": {
+        "x": 753,
+        "y": 574
+      },
+      "stairs": {
+        "x": 116,
+        "y": 365
+      },
+      "bathroom": {
+        "x": 110,
+        "y": 345
+      }
+    },
+    "exits": [
+      {
+        "id": "door",
+        "x": 753,
+        "y": 580,
+        "to": "qianxia-park",
+        "entry": "xjhome"
+      },
+      {
+        "id": "shared-stairs",
+        "to": "shared-home-upstairs",
+        "entry": "stairs",
+        "x": 230,
+        "y": 490,
+        "via": [
+          [
+            174,
+            350
+          ],
+          [
+            116,
+            350
+          ],
+          [
+            116,
+            365
+          ],
+          [
+            116,
+            474
+          ],
+          [
+            210,
+            490
+          ],
+          [
+            230,
+            490
+          ]
+        ]
+      },
+      {
+        "id": "home-bathroom",
+        "to": "shared-home-bathroom",
+        "entry": "door",
+        "x": 110,
+        "y": 345,
+        "badge_x": 115,
+        "badge_y": 320
+      }
+    ],
+    "zones": {
+      "xj_door": {
+        "x": 753,
+        "y": 555
+      },
+      "xj_window": {
+        "x": 620,
+        "y": 118
+      },
+      "xj_beach": {
+        "x": 906,
+        "y": 100
+      },
+      "stairs_up": {
+        "x": 116,
+        "y": 365
+      },
+      "shared_left": {
+        "x": 310,
+        "y": 540
+      },
+      "shared_right": {
+        "x": 775,
+        "y": 502.5
+      },
+      "kitchen_sink": {
+        "x": 238.125,
+        "y": 205.625
+      },
+      "kitchen_stove": {
+        "x": 140.625,
+        "y": 204.375
+      },
+      "kitchen_fridge": {
+        "x": 342.5,
+        "y": 215.625
+      },
+      "dining": {
+        "x": 591.875,
+        "y": 207.5
+      },
+      "dining_seat": {
+        "x": 598.75,
+        "y": 234.375
+      },
+      "living_sofa": {
+        "x": 458.25,
+        "y": 533.125
+      },
+      "living_tv": {
+        "x": 482.625,
+        "y": 415.625
+      },
+      "living_armchair": {
+        "x": 347.625,
+        "y": 471.25
+      },
+      "living_reading": {
+        "x": 787.5,
+        "y": 440
+      },
+      "living_center": {
+        "x": 310,
+        "y": 540
+      },
+      "sofa_xiaoai": {
+        "x": 416.5,
+        "y": 536
+      },
+      "sofa_selena": {
+        "x": 500.5,
+        "y": 536
+      },
+      "bathroom_door": {
+        "x": 110,
+        "y": 345
+      },
+      "dining_xiaoai": {
+        "x": 646,
+        "y": 124
+      },
+      "dining_selena": {
+        "x": 715,
+        "y": 124
+      },
+      "cook_stove": {
+        "x": 140,
+        "y": 214
+      },
+      "cook_prep": {
+        "x": 280,
+        "y": 204
+      },
+      "kitchen_wash": {
+        "x": 218,
+        "y": 226
+      },
+      "cook_tea": {
+        "x": 250,
+        "y": 204
+      }
+    },
+    "obstacles": [
+      {
+        "x": 57,
+        "y": 253,
+        "w": 154,
+        "h": 79
+      },
+      {
+        "x": 301,
+        "y": 253,
+        "w": 265,
+        "h": 79
+      },
+      {
+        "x": 655,
+        "y": 253,
+        "w": 209,
+        "h": 79
+      },
+      {
+        "x": 404,
+        "y": 30,
+        "w": 26,
+        "h": 222
+      },
+      {
+        "x": 367,
+        "y": 40,
+        "w": 97,
+        "h": 127
+      },
+      {
+        "x": 800,
+        "y": 40,
+        "w": 74,
+        "h": 210
+      },
+      {
+        "x": 623,
+        "y": 482,
+        "w": 82,
+        "h": 136
+      },
+      {
+        "x": 807,
+        "y": 482,
+        "w": 76,
+        "h": 118
+      },
+      {
+        "x": 74,
+        "y": 547,
+        "w": 554,
+        "h": 72
+      },
+      {
+        "x": 64,
+        "y": 42,
+        "w": 16,
+        "h": 506
+      },
+      {
+        "x": 147,
+        "y": 373,
+        "w": 7,
+        "h": 100
+      },
+      {
+        "x": 80,
+        "y": 507,
+        "w": 145,
+        "h": 35
+      },
+      {
+        "x": 80,
+        "y": 148.75,
+        "w": 240.625,
+        "h": 36.25
+      },
+      {
+        "x": 78.75,
+        "y": 204.375,
+        "w": 39.375,
+        "h": 49.375
+      },
+      {
+        "x": 323.75,
+        "y": 158.125,
+        "w": 45,
+        "h": 35
+      },
+      {
+        "x": 481.25,
+        "y": 129.375,
+        "w": 87.5,
+        "h": 38.75
+      },
+      {
+        "x": 609.375,
+        "y": 167.5,
+        "w": 143.125,
+        "h": 61.25
+      },
+      {
+        "x": 626.25,
+        "y": 137.5,
+        "w": 39.375,
+        "h": 23.75
+      },
+      {
+        "x": 693.125,
+        "y": 137.5,
+        "w": 40,
+        "h": 23.75
+      },
+      {
+        "x": 628.125,
+        "y": 212.5,
+        "w": 41.25,
+        "h": 28.75
+      },
+      {
+        "x": 691.875,
+        "y": 212.5,
+        "w": 41.875,
+        "h": 28.75
+      },
+      {
+        "x": 376.375,
+        "y": 380.625,
+        "w": 176.25,
+        "h": 28.75
+      },
+      {
+        "x": 250.75,
+        "y": 438.125,
+        "w": 86.25,
+        "h": 48.75
+      },
+      {
+        "x": 415.125,
+        "y": 426.875,
+        "w": 96.875,
+        "h": 36.25
+      },
+      {
+        "x": 369.5,
+        "y": 472.5,
+        "w": 181.875,
+        "h": 46.875
+      },
+      {
+        "x": 553.25,
+        "y": 482.5,
+        "w": 43.75,
+        "h": 37.5
+      },
+      {
+        "x": 812.5,
+        "y": 396.875,
+        "w": 60.625,
+        "h": 58.75
+      }
+    ],
+    "modules": {
+      "xj-main-light": {
+        "x": 532,
+        "y": 270,
+        "w": 23,
+        "h": 29,
+        "light": {
+          "x": 11.5,
+          "y": 14.5,
+          "radius": 105
+        },
+        "id": "xj-main-light",
+        "depth": 299,
+        "kind": "decoration"
+      },
+      "xj-window": {
+        "x": 590,
+        "y": 28,
+        "w": 82,
+        "h": 60,
+        "kind": "decoration",
+        "glass": [
+          [
+            0.24,
+            0.13,
+            0.5,
+            0.6
+          ]
+        ],
+        "id": "xj-window",
+        "depth": 86
+      },
+      "shared-stairs": {
+        "id": "shared-stairs",
+        "kind": "stairs",
+        "x": 80,
+        "y": 340,
+        "w": 145,
+        "h": 202,
+        "depth": 340,
+        "ascending": "south-then-east"
+      },
+      "kitchen-counter": {
+        "id": "kitchen-counter",
+        "kind": "kitchen",
+        "x": 79.375,
+        "y": 66.875,
+        "w": 242.5,
+        "h": 121.25,
+        "depth": 185
+      },
+      "kitchen-left-counter": {
+        "id": "kitchen-left-counter",
+        "kind": "kitchen",
+        "x": 78.125,
+        "y": 168.75,
+        "w": 40,
+        "h": 85,
+        "depth": 253.75
+      },
+      "kitchen-fridge": {
+        "id": "kitchen-fridge",
+        "kind": "fridge",
+        "x": 323.125,
+        "y": 98.75,
+        "w": 45.625,
+        "h": 93.75,
+        "depth": 193.125
+      },
+      "dining-sideboard": {
+        "id": "dining-sideboard",
+        "kind": "cupboard",
+        "x": 479.375,
+        "y": 49.375,
+        "w": 91.25,
+        "h": 119.375,
+        "depth": 168.125
+      },
+      "dining-table": {
+        "id": "dining-table",
+        "kind": "table",
+        "x": 608.125,
+        "y": 145.625,
+        "w": 143.75,
+        "h": 83.125,
+        "depth": 228.75
+      },
+      "dining-chair-nw": {
+        "id": "dining-chair-nw",
+        "kind": "seat",
+        "x": 625,
+        "y": 118.75,
+        "w": 42.5,
+        "h": 40.625,
+        "depth": 161.25
+      },
+      "dining-chair-ne": {
+        "id": "dining-chair-ne",
+        "kind": "seat",
+        "x": 691.875,
+        "y": 118.75,
+        "w": 43.125,
+        "h": 40.625,
+        "depth": 161.25
+      },
+      "dining-chair-sw": {
+        "id": "dining-chair-sw",
+        "kind": "seat",
+        "x": 626.875,
+        "y": 183.125,
+        "w": 43.75,
+        "h": 58.125,
+        "depth": 241.25
+      },
+      "dining-chair-se": {
+        "id": "dining-chair-se",
+        "kind": "seat",
+        "x": 690.625,
+        "y": 183.125,
+        "w": 44.375,
+        "h": 58.125,
+        "depth": 241.25
+      },
+      "living-tv": {
+        "id": "living-tv",
+        "kind": "television",
+        "x": 375.75,
+        "y": 334.375,
+        "w": 176.875,
+        "h": 75,
+        "depth": 409.375
+      },
+      "living-armchair": {
+        "id": "living-armchair",
+        "kind": "seat",
+        "x": 249.5,
+        "y": 386.875,
+        "w": 86.875,
+        "h": 100,
+        "depth": 486.875
+      },
+      "living-coffee-table": {
+        "id": "living-coffee-table",
+        "kind": "table",
+        "x": 414.5,
+        "y": 400.625,
+        "w": 97.5,
+        "h": 62.5,
+        "depth": 463.125
+      },
+      "living-sofa": {
+        "id": "living-sofa",
+        "kind": "sofa",
+        "x": 368.25,
+        "y": 443.75,
+        "w": 182.5,
+        "h": 75.625,
+        "depth": 519.375
+      },
+      "living-side-table": {
+        "id": "living-side-table",
+        "kind": "table",
+        "x": 551.375,
+        "y": 428.125,
+        "w": 46.25,
+        "h": 91.875,
+        "depth": 520
+      },
+      "living-bookcase": {
+        "id": "living-bookcase",
+        "kind": "cupboard",
+        "x": 811.25,
+        "y": 343.75,
+        "w": 62.5,
+        "h": 111.25,
+        "depth": 455.625
+      },
+      "living-game-console": {
+        "id": "living-game-console",
+        "kind": "game-console",
+        "x": 382.625,
+        "y": 334.375,
+        "w": 31.25,
+        "h": 48.125,
+        "depth": 382.5
+      },
+      "living-rug": {
+        "id": "living-rug",
+        "kind": "rug",
+        "x": 336.375,
+        "y": 393.75,
+        "w": 267.5,
+        "h": 128.125,
+        "depth": 521.875
+      }
+    },
+    "layoutRevision": "first-floor-living-group-left-v12",
+    "walkRegions": [
+      [
+        [
+          84,
+          69
+        ],
+        [
+          858,
+          69
+        ],
+        [
+          858,
+          592
+        ],
+        [
+          84,
+          592
+        ]
+      ],
+      [
+        [
+          707,
+          574
+        ],
+        [
+          807,
+          574
+        ],
+        [
+          807,
+          600
+        ],
+        [
+          941,
+          600
+        ],
+        [
+          941,
+          624
+        ],
+        [
+          707,
+          624
+        ]
+      ],
+      [
+        [
+          909,
+          310
+        ],
+        [
+          941,
+          310
+        ],
+        [
+          941,
+          624
+        ],
+        [
+          909,
+          624
+        ]
+      ],
+      [
+        [
+          909,
+          324
+        ],
+        [
+          941,
+          324
+        ],
+        [
+          941,
+          225
+        ],
+        [
+          930,
+          196
+        ],
+        [
+          899,
+          174
+        ],
+        [
+          883,
+          154
+        ],
+        [
+          898,
+          125
+        ],
+        [
+          920,
+          108
+        ],
+        [
+          923,
+          82
+        ],
+        [
+          896,
+          82
+        ],
+        [
+          872,
+          112
+        ],
+        [
+          856,
+          149
+        ],
+        [
+          869,
+          178
+        ],
+        [
+          903,
+          207
+        ],
+        [
+          909,
+          232
+        ]
+      ]
+    ]
+  },
+  "manifest": {
+    "scene": "xiaojingyu-home",
+    "scale": 2,
+    "ground": {
+      "file": "../renovation/first-floor-day.png",
+      "night_file": "../renovation/first-floor-night.png",
+      "x": 0,
+      "y": 0,
+      "w": 960,
+      "h": 640,
+      "registration": {
+        "x": [
+          [
+            0,
+            0
+          ],
+          [
+            1536,
+            960
+          ]
+        ],
+        "y": [
+          [
+            0,
+            0
+          ],
+          [
+            1024,
+            640
+          ]
+        ]
+      },
+      "patches": [
+        {
+          "id": "living-old-area-clear-v12",
+          "file": "../renovation/living-group-left-day-v12.png",
+          "night_file": "../renovation/living-group-left-night-v12.png",
+          "feather": 16,
+          "registration": {
+            "x": [
+              [
+                900,
+                562.5
+              ],
+              [
+                1240,
+                775
+              ]
+            ],
+            "y": [
+              [
+                510,
+                318.75
+              ],
+              [
+                860,
+                537.5
+              ]
+            ]
+          }
+        },
+        {
+          "id": "living-group-left-v12",
+          "file": "../renovation/living-group-left-day-v12.png",
+          "night_file": "../renovation/living-group-left-night-v12.png",
+          "feather": 16,
+          "registration": {
+            "x": [
+              [
+                320,
+                232
+              ],
+              [
+                945,
+                622.625
+              ]
+            ],
+            "y": [
+              [
+                534,
+                333.75
+              ],
+              [
+                860,
+                537.5
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    "layers": [
+      {
+        "id": "shared-stairs",
+        "owner": "shared-stairs",
+        "file": "../renovation/stairs-wall-up.png",
+        "procedural": "directional_stairs",
+        "x": 80,
+        "y": 340,
+        "w": 145,
+        "h": 202,
+        "depth": 340
+      },
+      {
+        "id": "kitchen-counter",
+        "owner": "kitchen-counter",
+        "file": "../renovation/first-floor-day.png",
+        "night_file": "../renovation/first-floor-night.png",
+        "fit_art": true,
+        "bedroom_region": true,
+        "region": [
+          127,
+          107,
+          388,
+          194
+        ],
+        "x": 79.375,
+        "y": 66.875,
+        "w": 242.5,
+        "h": 121.25,
+        "depth": 185
+      },
+      {
+        "id": "kitchen-left-counter",
+        "owner": "kitchen-left-counter",
+        "file": "../renovation/first-floor-day.png",
+        "night_file": "../renovation/first-floor-night.png",
+        "fit_art": true,
+        "bedroom_region": true,
+        "region": [
+          125,
+          270,
+          64,
+          136
+        ],
+        "x": 78.125,
+        "y": 168.75,
+        "w": 40,
+        "h": 85,
+        "depth": 253.75
+      },
+      {
+        "id": "kitchen-fridge",
+        "owner": "kitchen-fridge",
+        "file": "../renovation/first-floor-day.png",
+        "night_file": "../renovation/first-floor-night.png",
+        "fit_art": true,
+        "bedroom_region": true,
+        "region": [
+          517,
+          158,
+          73,
+          150
+        ],
+        "x": 323.125,
+        "y": 98.75,
+        "w": 45.625,
+        "h": 93.75,
+        "depth": 193.125
+      },
+      {
+        "id": "dining-sideboard",
+        "owner": "dining-sideboard",
+        "file": "../renovation/first-floor-day.png",
+        "night_file": "../renovation/first-floor-night.png",
+        "fit_art": true,
+        "bedroom_region": true,
+        "region": [
+          767,
+          79,
+          146,
+          191
+        ],
+        "x": 479.375,
+        "y": 49.375,
+        "w": 91.25,
+        "h": 119.375,
+        "depth": 168.125
+      },
+      {
+        "id": "dining-table",
+        "owner": "dining-table",
+        "file": "../renovation/first-floor-day.png",
+        "night_file": "../renovation/first-floor-night.png",
+        "fit_art": true,
+        "bedroom_region": true,
+        "region": [
+          973,
+          233,
+          230,
+          133
+        ],
+        "x": 608.125,
+        "y": 145.625,
+        "w": 143.75,
+        "h": 83.125,
+        "depth": 228.75
+      },
+      {
+        "id": "dining-chair-nw",
+        "owner": "dining-chair-nw",
+        "file": "../renovation/first-floor-day.png",
+        "night_file": "../renovation/first-floor-night.png",
+        "fit_art": true,
+        "bedroom_region": true,
+        "region": [
+          1000,
+          190,
+          68,
+          65
+        ],
+        "x": 625,
+        "y": 118.75,
+        "w": 42.5,
+        "h": 40.625,
+        "depth": 161.25
+      },
+      {
+        "id": "dining-chair-ne",
+        "owner": "dining-chair-ne",
+        "file": "../renovation/first-floor-day.png",
+        "night_file": "../renovation/first-floor-night.png",
+        "fit_art": true,
+        "bedroom_region": true,
+        "region": [
+          1107,
+          190,
+          69,
+          65
+        ],
+        "x": 691.875,
+        "y": 118.75,
+        "w": 43.125,
+        "h": 40.625,
+        "depth": 161.25
+      },
+      {
+        "id": "dining-chair-sw",
+        "owner": "dining-chair-sw",
+        "file": "../renovation/first-floor-day.png",
+        "night_file": "../renovation/first-floor-night.png",
+        "fit_art": true,
+        "bedroom_region": true,
+        "region": [
+          1003,
+          293,
+          70,
+          93
+        ],
+        "x": 626.875,
+        "y": 183.125,
+        "w": 43.75,
+        "h": 58.125,
+        "depth": 241.25
+      },
+      {
+        "id": "dining-chair-se",
+        "owner": "dining-chair-se",
+        "file": "../renovation/first-floor-day.png",
+        "night_file": "../renovation/first-floor-night.png",
+        "fit_art": true,
+        "bedroom_region": true,
+        "region": [
+          1105,
+          293,
+          71,
+          93
+        ],
+        "x": 690.625,
+        "y": 183.125,
+        "w": 44.375,
+        "h": 58.125,
+        "depth": 241.25
+      },
+      {
+        "id": "living-tv",
+        "owner": "living-tv",
+        "file": "../renovation/living-group-left-day-v12.png",
+        "night_file": "../renovation/living-group-left-night-v12.png",
+        "fit_art": true,
+        "bedroom_region": true,
+        "region": [
+          540,
+          530,
+          294,
+          132
+        ],
+        "x": 369.5,
+        "y": 331.25,
+        "w": 183.75,
+        "h": 82.5,
+        "depth": 409.375
+      },
+      {
+        "id": "living-armchair",
+        "owner": "living-armchair",
+        "file": "../renovation/living-group-left-day-v12.png",
+        "night_file": "../renovation/living-group-left-night-v12.png",
+        "fit_art": true,
+        "bedroom_region": true,
+        "region": [
+          337,
+          610,
+          155,
+          176
+        ],
+        "x": 242.625,
+        "y": 381.25,
+        "w": 96.875,
+        "h": 110,
+        "depth": 486.875
+      },
+      {
+        "id": "living-coffee-table",
+        "owner": "living-coffee-table",
+        "file": "../renovation/living-group-left-day-v12.png",
+        "night_file": "../renovation/living-group-left-night-v12.png",
+        "fit_art": true,
+        "bedroom_region": true,
+        "region": [
+          600,
+          632,
+          173,
+          119
+        ],
+        "x": 407,
+        "y": 395,
+        "w": 108.125,
+        "h": 74.375,
+        "depth": 463.125
+      },
+      {
+        "id": "living-sofa",
+        "owner": "living-sofa",
+        "file": "../renovation/sofa-empty-v12.png",
+        "x": 368.25,
+        "y": 443.75,
+        "w": 182.5,
+        "h": 75.625,
+        "depth": 519.375,
+        "procedural": "sofa_actions"
+      },
+      {
+        "id": "living-side-table",
+        "owner": "living-side-table",
+        "file": "../renovation/living-group-left-day-v12.png",
+        "night_file": "../renovation/living-group-left-night-v12.png",
+        "fit_art": true,
+        "bedroom_region": true,
+        "region": [
+          823,
+          677,
+          91,
+          163
+        ],
+        "x": 546.375,
+        "y": 423.125,
+        "w": 56.875,
+        "h": 101.875,
+        "depth": 520
+      },
+      {
+        "id": "living-bookcase",
+        "owner": "living-bookcase",
+        "file": "../renovation/first-floor-day.png",
+        "night_file": "../renovation/first-floor-night.png",
+        "fit_art": true,
+        "bedroom_region": true,
+        "region": [
+          1298,
+          550,
+          100,
+          178
+        ],
+        "x": 811.25,
+        "y": 343.75,
+        "w": 62.5,
+        "h": 111.25,
+        "depth": 455.625
+      },
+      {
+        "id": "entry-sofa-occluder",
+        "owner": "entry-sofa-occluder",
+        "file": "../renovation/living-group-left-day-v12.png",
+        "night_file": "../renovation/living-group-left-night-v12.png",
+        "x": 637.5,
+        "y": 478.75,
+        "w": 70.625,
+        "h": 52.5,
+        "depth": 540,
+        "foreground_polygons": [
+          [
+            [
+              1020,
+              766
+            ],
+            [
+              1133,
+              766
+            ],
+            [
+              1133,
+              850
+            ],
+            [
+              1020,
+              850
+            ]
+          ]
+        ]
+      }
+    ]
+  },
+  "profile": {
+    "home": {
+      "scene": "xiaojingyu-home",
+      "defaultZone": "xj_rug",
+      "placeNames": [
+        {
+          "words": [
+            "床",
+            "被"
+          ],
+          "zone": "xj_bed"
+        },
+        {
+          "words": [
+            "桌",
+            "电脑",
+            "椅"
+          ],
+          "zone": "xj_desk"
+        },
+        {
+          "words": [
+            "鱼缸",
+            "鱼"
+          ],
+          "zone": "xj_tank"
+        },
+        {
+          "words": [
+            "沙发",
+            "懒人",
+            "柜",
+            "置物"
+          ],
+          "zone": "xj_sofa"
+        },
+        {
+          "words": [
+            "窗"
+          ],
+          "zone": "xj_window"
+        },
+        {
+          "words": [
+            "门"
+          ],
+          "zone": "xj_door"
+        }
+      ],
+      "bed": {
+        "mode": "simple",
+        "lying": [
+          147,
+          142
+        ],
+        "quilt_top": 57,
+        "clip": 58,
+        "effects": [],
+        "asleep_effects": [],
+        "sleep_visual": {
+          "sheet": "../seaside/actors/sleep/sleeping.png",
+          "at_ratio": [
+            0.04,
+            0.07,
+            0.92,
+            0.424
+          ],
+          "quilt_top_ratio": 0.41
+        }
+      },
+      "stages": [],
+      "idle": {
+        "dir": 0
+      },
+      "visual": {
+        "screen": "seaside",
+        "plant": "xj-plant-west",
+        "plant_art": "care-plant-xj",
+        "plant_region": [
+          490,
+          200,
+          510,
+          665
+        ],
+        "paint_zone": "xj_draw"
+      },
+      "gridLayout": true,
+      "audioOutput": "speakers"
+    }
+  },
+  "visual": {
+    "background": false,
+    "width": 960,
+    "height": 640,
+    "outdoor": false,
+    "exits": [
+      {
+        "id": "door",
+        "name": "公园",
+        "point": {
+          "x": 753,
+          "y": 580
+        },
+        "to": {
+          "sceneId": "qianxia-park",
+          "entry": "xjhome"
+        }
+      },
+      {
+        "id": "shared-stairs",
+        "name": "二楼",
+        "point": {
+          "x": 230,
+          "y": 490
+        },
+        "to": {
+          "sceneId": "shared-home-upstairs",
+          "entry": "stairs"
+        }
+      }
+    ],
+    "zones": {
+      "xj_door": {
+        "x": 753,
+        "y": 555
+      },
+      "xj_window": {
+        "x": 620,
+        "y": 118
+      },
+      "xj_beach": {
+        "x": 906,
+        "y": 100
+      },
+      "stairs_up": {
+        "x": 116,
+        "y": 365
+      },
+      "shared_left": {
+        "x": 310,
+        "y": 540
+      },
+      "shared_right": {
+        "x": 775,
+        "y": 502.5
+      },
+      "kitchen_sink": {
+        "x": 238.125,
+        "y": 205.625
+      },
+      "kitchen_stove": {
+        "x": 140.625,
+        "y": 204.375
+      },
+      "kitchen_fridge": {
+        "x": 342.5,
+        "y": 215.625
+      },
+      "dining": {
+        "x": 591.875,
+        "y": 207.5
+      },
+      "dining_seat": {
+        "x": 598.75,
+        "y": 234.375
+      },
+      "living_sofa": {
+        "x": 458.25,
+        "y": 533.125
+      },
+      "living_tv": {
+        "x": 482.625,
+        "y": 415.625
+      },
+      "living_armchair": {
+        "x": 347.625,
+        "y": 471.25
+      },
+      "living_reading": {
+        "x": 787.5,
+        "y": 440
+      },
+      "living_center": {
+        "x": 310,
+        "y": 540
+      },
+      "sofa_xiaoai": {
+        "x": 416.5,
+        "y": 536
+      },
+      "sofa_selena": {
+        "x": 500.5,
+        "y": 536
+      }
+    },
+    "modules": {
+      "xj-main-light": {
+        "x": 532,
+        "y": 270,
+        "w": 23,
+        "h": 29,
+        "light": {
+          "x": 11.5,
+          "y": 14.5,
+          "radius": 105
+        },
+        "id": "xj-main-light",
+        "depth": 299,
+        "kind": "decoration"
+      },
+      "xj-window": {
+        "x": 590,
+        "y": 28,
+        "w": 82,
+        "h": 60,
+        "kind": "decoration",
+        "glass": [
+          [
+            0.24,
+            0.13,
+            0.5,
+            0.6
+          ]
+        ],
+        "id": "xj-window",
+        "depth": 86
+      },
+      "shared-stairs": {
+        "id": "shared-stairs",
+        "kind": "stairs",
+        "x": 80,
+        "y": 340,
+        "w": 145,
+        "h": 202,
+        "depth": 340,
+        "ascending": "south-then-east"
+      },
+      "kitchen-counter": {
+        "id": "kitchen-counter",
+        "kind": "kitchen",
+        "x": 79.375,
+        "y": 66.875,
+        "w": 242.5,
+        "h": 121.25,
+        "depth": 185
+      },
+      "kitchen-left-counter": {
+        "id": "kitchen-left-counter",
+        "kind": "kitchen",
+        "x": 78.125,
+        "y": 168.75,
+        "w": 40,
+        "h": 85,
+        "depth": 253.75
+      },
+      "kitchen-fridge": {
+        "id": "kitchen-fridge",
+        "kind": "fridge",
+        "x": 323.125,
+        "y": 98.75,
+        "w": 45.625,
+        "h": 93.75,
+        "depth": 193.125
+      },
+      "dining-sideboard": {
+        "id": "dining-sideboard",
+        "kind": "cupboard",
+        "x": 479.375,
+        "y": 49.375,
+        "w": 91.25,
+        "h": 119.375,
+        "depth": 168.125
+      },
+      "dining-table": {
+        "id": "dining-table",
+        "kind": "table",
+        "x": 608.125,
+        "y": 145.625,
+        "w": 143.75,
+        "h": 83.125,
+        "depth": 228.75
+      },
+      "dining-chair-nw": {
+        "id": "dining-chair-nw",
+        "kind": "seat",
+        "x": 625,
+        "y": 118.75,
+        "w": 42.5,
+        "h": 40.625,
+        "depth": 161.25
+      },
+      "dining-chair-ne": {
+        "id": "dining-chair-ne",
+        "kind": "seat",
+        "x": 691.875,
+        "y": 118.75,
+        "w": 43.125,
+        "h": 40.625,
+        "depth": 161.25
+      },
+      "dining-chair-sw": {
+        "id": "dining-chair-sw",
+        "kind": "seat",
+        "x": 626.875,
+        "y": 183.125,
+        "w": 43.75,
+        "h": 58.125,
+        "depth": 241.25
+      },
+      "dining-chair-se": {
+        "id": "dining-chair-se",
+        "kind": "seat",
+        "x": 690.625,
+        "y": 183.125,
+        "w": 44.375,
+        "h": 58.125,
+        "depth": 241.25
+      },
+      "living-tv": {
+        "id": "living-tv",
+        "kind": "television",
+        "x": 375.75,
+        "y": 334.375,
+        "w": 176.875,
+        "h": 75,
+        "depth": 409.375
+      },
+      "living-armchair": {
+        "id": "living-armchair",
+        "kind": "seat",
+        "x": 249.5,
+        "y": 386.875,
+        "w": 86.875,
+        "h": 100,
+        "depth": 486.875
+      },
+      "living-coffee-table": {
+        "id": "living-coffee-table",
+        "kind": "table",
+        "x": 414.5,
+        "y": 400.625,
+        "w": 97.5,
+        "h": 62.5,
+        "depth": 463.125
+      },
+      "living-sofa": {
+        "id": "living-sofa",
+        "kind": "sofa",
+        "x": 368.25,
+        "y": 443.75,
+        "w": 182.5,
+        "h": 75.625,
+        "depth": 519.375
+      },
+      "living-side-table": {
+        "id": "living-side-table",
+        "kind": "table",
+        "x": 551.375,
+        "y": 428.125,
+        "w": 46.25,
+        "h": 91.875,
+        "depth": 520
+      },
+      "living-bookcase": {
+        "id": "living-bookcase",
+        "kind": "cupboard",
+        "x": 811.25,
+        "y": 343.75,
+        "w": 62.5,
+        "h": 111.25,
+        "depth": 455.625
+      },
+      "living-game-console": {
+        "id": "living-game-console",
+        "kind": "game-console",
+        "x": 382.625,
+        "y": 334.375,
+        "w": 31.25,
+        "h": 48.125,
+        "depth": 382.5
+      },
+      "living-rug": {
+        "id": "living-rug",
+        "kind": "rug",
+        "x": 336.375,
+        "y": 393.75,
+        "w": 267.5,
+        "h": 128.125,
+        "depth": 521.875
+      }
+    }
+  },
+  "defaultStored": [
+    "xj-bed",
+    "xj-bookshelf",
+    "xj-writing_desk",
+    "xj-desk",
+    "xj-computer-chair",
+    "xj-desk-chair",
+    "xj-easel",
+    "xj-easel-seat",
+    "xj-tank",
+    "xj-sofa",
+    "xj-album-cabinet",
+    "xj-album-seat",
+    "xj-accessory_table",
+    "xj-lamp-floor",
+    "xj-lamp-shelf",
+    "xj-album",
+    "xj-desk-book",
+    "xj-phone",
+    "xj-plant-west",
+    "xj-rabbit",
+    "xj-ocean-rug",
+    "chess-seat-left",
+    "chess-seat-right",
+    "xj-plant-shelf",
+    "xj-plant-desk",
+    "xj-plant-east",
+    "speaker-left",
+    "speaker-right"
+  ],
+  "revision": "first-floor-living-group-left-v12"
+}

@@ -1,0 +1,12 @@
+{
+  "character": "selena",
+  "owner_qq": "填写主人QQ",
+  "owner_umo": "填写平台ID:FriendMessage:主人QQ",
+  "shared_directory": "D:/YourHomeData",
+  "sister_group_enabled": false,
+  "sister_group_id": "",
+  "xiaoai_qq": "",
+  "selena_qq": "",
+  "sister_dialogue_daily_limit": 5,
+  "lan_enabled": false
+}

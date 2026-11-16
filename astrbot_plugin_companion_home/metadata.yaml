@@ -1,0 +1,13 @@
+name: astrbot_plugin_companion_home
+display_name: 她们的家
+desc: 小爱与赛琳娜的共同生活、主题背景、主人同行与经历记忆同步
+version: 2.3.0
+author: Local
+astrbot_version: ">=4.29.0"
+support_platforms:
+  - aiocqhttp
+i18n:
+  zh-CN:
+    views:
+      home:
+        title: 她们的家

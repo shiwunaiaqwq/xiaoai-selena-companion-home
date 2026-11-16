@@ -1,0 +1,666 @@
+{
+  "scene": "shared-home-upstairs",
+  "scale": 2,
+  "ground": {
+    "file": "../renovation/rear-balconies-heart-day-v13.png",
+    "night_file": "../renovation/rear-balconies-heart-night-v13.png",
+    "x": 0,
+    "y": 0,
+    "w": 960,
+    "h": 752.5,
+    "registration": {
+      "x": [
+        [
+          0,
+          0
+        ],
+        [
+          1536,
+          960
+        ]
+      ],
+      "y": [
+        [
+          0,
+          0
+        ],
+        [
+          150,
+          143.75
+        ],
+        [
+          240,
+          206.25
+        ],
+        [
+          540,
+          378.125
+        ],
+        [
+          620,
+          443.75
+        ],
+        [
+          900,
+          675
+        ],
+        [
+          1024,
+          752.5
+        ]
+      ]
+    },
+    "patches": [
+      {
+        "file": "../renovation/music-areas-v9-day.png",
+        "night_file": "../renovation/music-areas-v9-night.png",
+        "registration": {
+          "x": [
+            [
+              400,
+              250
+            ],
+            [
+              1400,
+              875
+            ]
+          ],
+          "y": [
+            [
+              620,
+              443.75
+            ],
+            [
+              900,
+              675
+            ],
+            [
+              930,
+              693.75
+            ]
+          ]
+        },
+        "action_day_file": "../renovation/music-areas-v9-action-day.png",
+        "action_night_file": "../renovation/music-areas-v9-action-night.png"
+      },
+      {
+        "id": "practice-empty-floor-v10",
+        "file": "../renovation/practice-clean-day-v14.png",
+        "night_file": "../renovation/practice-clean-night-v14.png",
+        "registration": {
+          "x": [
+            [
+              580,
+              362.5
+            ],
+            [
+              766,
+              478.75
+            ]
+          ],
+          "y": [
+            [
+              728,
+              532.9464285714286
+            ],
+            [
+              894,
+              670.0446428571429
+            ]
+          ]
+        },
+        "feather": 8
+      }
+    ]
+  },
+  "layers": [
+    {
+      "id": "shared-stairs",
+      "owner": "shared-stairs",
+      "file": "../renovation/stairs-wall-up.png",
+      "procedural": "directional_stairs",
+      "x": 80,
+      "y": 452.5,
+      "w": 145,
+      "h": 202,
+      "depth": 452.5,
+      "render_offset_y": 112.5
+    },
+    {
+      "id": "xiaoai-bed",
+      "owner": "xiaoai-bed",
+      "file": "../renovation/rear-balconies-heart-day-v13.png",
+      "fit_art": true,
+      "bedroom_region": true,
+      "region": [
+        135,
+        262,
+        124,
+        234
+      ],
+      "x": 84.375,
+      "y": 218.85416666666666,
+      "w": 77.5,
+      "h": 134.06250000000003,
+      "depth": 352.9166666666667
+    },
+    {
+      "id": "xiaoai-nightstand",
+      "owner": "xiaoai-nightstand",
+      "file": "../renovation/rear-balconies-heart-day-v13.png",
+      "fit_art": true,
+      "bedroom_region": true,
+      "region": [
+        256,
+        276,
+        60,
+        111
+      ],
+      "x": 160,
+      "y": 226.875,
+      "w": 37.5,
+      "h": 63.59375,
+      "depth": 290.46875
+    },
+    {
+      "id": "xiaoai-wardrobe",
+      "owner": "xiaoai-wardrobe",
+      "file": "../renovation/rear-balconies-heart-day-v13.png",
+      "fit_art": true,
+      "bedroom_region": true,
+      "region": [
+        585,
+        248,
+        77,
+        169
+      ],
+      "x": 365.625,
+      "y": 210.83333333333334,
+      "w": 48.125,
+      "h": 96.82291666666666,
+      "depth": 306.5104166666667
+    },
+    {
+      "id": "xiaoai-mirror",
+      "owner": "xiaoai-mirror",
+      "file": "../renovation/rear-balconies-heart-day-v13.png",
+      "fit_art": true,
+      "bedroom_region": true,
+      "region": [
+        603,
+        393,
+        57,
+        130
+      ],
+      "x": 376.875,
+      "y": 293.90625,
+      "w": 35.625,
+      "h": 74.47916666666663,
+      "depth": 368.38541666666663
+    },
+    {
+      "id": "selena-bed",
+      "owner": "selena-bed",
+      "file": "../renovation/rear-balconies-heart-day-v13.png",
+      "fit_art": true,
+      "bedroom_region": true,
+      "region": [
+        692,
+        277,
+        127,
+        227
+      ],
+      "x": 432.5,
+      "y": 227.44791666666666,
+      "w": 79.375,
+      "h": 130.05208333333334,
+      "depth": 357.5
+    },
+    {
+      "id": "selena-nightstand",
+      "owner": "selena-nightstand",
+      "file": "../renovation/rear-balconies-heart-day-v13.png",
+      "fit_art": true,
+      "bedroom_region": true,
+      "region": [
+        816,
+        310,
+        60,
+        122
+      ],
+      "x": 510,
+      "y": 246.35416666666666,
+      "w": 37.5,
+      "h": 69.89583333333334,
+      "depth": 316.25
+    },
+    {
+      "id": "selena-music-desk",
+      "owner": "selena-music-desk",
+      "file": "../renovation/rear-balconies-heart-day-v13.png",
+      "fit_art": true,
+      "bedroom_region": true,
+      "region": [
+        812,
+        209,
+        161,
+        138
+      ],
+      "x": 507.5,
+      "y": 184.72222222222223,
+      "w": 100.625,
+      "h": 82.82986111111109,
+      "depth": 267.5520833333333
+    },
+    {
+      "id": "selena-wardrobe",
+      "owner": "selena-wardrobe",
+      "file": "../renovation/rear-balconies-heart-day-v13.png",
+      "fit_art": true,
+      "bedroom_region": true,
+      "region": [
+        1227,
+        172,
+        77,
+        201
+      ],
+      "x": 766.875,
+      "y": 159.02777777777777,
+      "w": 48.125,
+      "h": 123.42013888888891,
+      "depth": 282.4479166666667
+    },
+    {
+      "id": "selena-mirror",
+      "owner": "selena-mirror",
+      "file": "../renovation/rear-balconies-heart-day-v13.png",
+      "fit_art": true,
+      "bedroom_region": true,
+      "region": [
+        1233,
+        370,
+        69,
+        151
+      ],
+      "x": 770.625,
+      "y": 280.7291666666667,
+      "w": 43.125,
+      "h": 86.51041666666669,
+      "depth": 367.23958333333337
+    },
+    {
+      "id": "xiaoai-balcony-flower-a",
+      "owner": "xiaoai-balcony-flower-a",
+      "file": "../renovation/rear-balconies-heart-day-v13.png",
+      "fit_art": true,
+      "bedroom_region": true,
+      "region": [
+        282,
+        53,
+        68,
+        84
+      ],
+      "x": 176.25,
+      "y": 50.791666666666664,
+      "w": 42.5,
+      "h": 80.5,
+      "depth": 132.25
+    },
+    {
+      "id": "xiaoai-balcony-flower-b",
+      "owner": "xiaoai-balcony-flower-b",
+      "file": "../renovation/rear-balconies-heart-day-v13.png",
+      "fit_art": true,
+      "bedroom_region": true,
+      "region": [
+        547,
+        67,
+        63,
+        70
+      ],
+      "x": 341.875,
+      "y": 64.20833333333333,
+      "w": 39.375,
+      "h": 67.08333333333333,
+      "depth": 131.29166666666666
+    },
+    {
+      "id": "selena-balcony-flower-a",
+      "owner": "selena-balcony-flower-a",
+      "file": "../renovation/rear-balconies-heart-day-v13.png",
+      "fit_art": true,
+      "bedroom_region": true,
+      "region": [
+        926,
+        49,
+        68,
+        82
+      ],
+      "x": 578.75,
+      "y": 46.958333333333336,
+      "w": 42.5,
+      "h": 78.58333333333331,
+      "depth": 128.41666666666666
+    },
+    {
+      "id": "selena-balcony-flower-b",
+      "owner": "selena-balcony-flower-b",
+      "file": "../renovation/rear-balconies-heart-day-v13.png",
+      "fit_art": true,
+      "bedroom_region": true,
+      "region": [
+        1208,
+        55,
+        59,
+        79
+      ],
+      "x": 755,
+      "y": 52.70833333333333,
+      "w": 36.875,
+      "h": 75.70833333333333,
+      "depth": 129.375
+    },
+    {
+      "id": "practice-west-wall",
+      "owner": "practice-west-wall",
+      "file": "../renovation/music-areas-v9-day.png",
+      "night_file": "../renovation/music-areas-v9-night.png",
+      "bedroom_region": true,
+      "fit_art": true,
+      "region": [
+        415,
+        638,
+        29,
+        267
+      ],
+      "x": 259.375,
+      "y": 458.61607142857144,
+      "w": 18.125,
+      "h": 219.50892857142856,
+      "depth": 678.125
+    },
+    {
+      "id": "practice-back-left",
+      "owner": "practice-back-left",
+      "file": "../renovation/music-areas-v9-day.png",
+      "night_file": "../renovation/music-areas-v9-night.png",
+      "bedroom_region": true,
+      "fit_art": true,
+      "region": [
+        415,
+        638,
+        164,
+        117
+      ],
+      "x": 259.375,
+      "y": 458.61607142857144,
+      "w": 102.5,
+      "h": 96.62946428571422,
+      "depth": 555.2455357142857
+    },
+    {
+      "id": "practice-back-right",
+      "owner": "practice-back-right",
+      "file": "../renovation/music-areas-v9-day.png",
+      "night_file": "../renovation/music-areas-v9-night.png",
+      "bedroom_region": true,
+      "fit_art": true,
+      "region": [
+        638,
+        638,
+        230,
+        117
+      ],
+      "x": 398.75,
+      "y": 458.61607142857144,
+      "w": 143.75,
+      "h": 96.62946428571422,
+      "depth": 555.2455357142857
+    },
+    {
+      "id": "music-divider",
+      "owner": "music-divider",
+      "file": "../renovation/music-areas-v9-day.png",
+      "night_file": "../renovation/music-areas-v9-night.png",
+      "bedroom_region": true,
+      "fit_art": true,
+      "region": [
+        831,
+        651,
+        34,
+        254
+      ],
+      "x": 519.375,
+      "y": 469.35267857142856,
+      "w": 21.25,
+      "h": 208.77232142857144,
+      "depth": 677.5
+    },
+    {
+      "id": "studio-back-left",
+      "owner": "studio-back-left",
+      "file": "../renovation/music-areas-v9-day.png",
+      "night_file": "../renovation/music-areas-v9-night.png",
+      "bedroom_region": true,
+      "fit_art": true,
+      "region": [
+        863,
+        657,
+        88,
+        151
+      ],
+      "x": 539.375,
+      "y": 474.3080357142857,
+      "w": 55,
+      "h": 124.70982142857139,
+      "depth": 598.1919642857142
+    },
+    {
+      "id": "studio-back-right",
+      "owner": "studio-back-right",
+      "file": "../renovation/music-areas-v9-day.png",
+      "night_file": "../renovation/music-areas-v9-night.png",
+      "bedroom_region": true,
+      "fit_art": true,
+      "region": [
+        1008,
+        638,
+        393,
+        116
+      ],
+      "x": 630,
+      "y": 458.61607142857144,
+      "w": 245.625,
+      "h": 95.80357142857144,
+      "depth": 554.4196428571429
+    },
+    {
+      "id": "practice-speaker-left",
+      "owner": "practice-speaker-left",
+      "file": "../renovation/music-areas-v9-day.png",
+      "night_file": "../renovation/music-areas-v9-night.png",
+      "bedroom_region": true,
+      "fit_art": true,
+      "region": [
+        471,
+        691,
+        52,
+        85
+      ],
+      "x": 294.375,
+      "y": 502.38839285714283,
+      "w": 32.5,
+      "h": 70.20089285714295,
+      "depth": 572.5892857142858
+    },
+    {
+      "id": "practice-speaker-right",
+      "owner": "practice-speaker-right",
+      "file": "../renovation/music-areas-v9-day.png",
+      "night_file": "../renovation/music-areas-v9-night.png",
+      "bedroom_region": true,
+      "fit_art": true,
+      "region": [
+        793,
+        689,
+        56,
+        104
+      ],
+      "x": 495.625,
+      "y": 500.73660714285717,
+      "w": 35,
+      "h": 85.89285714285705,
+      "depth": 586.6294642857142
+    },
+    {
+      "id": "practice-lamp",
+      "owner": "practice-lamp",
+      "file": "../renovation/music-areas-v9-day.png",
+      "night_file": "../renovation/music-areas-v9-night.png",
+      "bedroom_region": true,
+      "fit_art": true,
+      "region": [
+        744,
+        667,
+        70,
+        125
+      ],
+      "x": 465,
+      "y": 482.5669642857143,
+      "w": 43.75,
+      "h": 103.23660714285717,
+      "depth": 585.8035714285714
+    },
+    {
+      "id": "practice-bench",
+      "owner": "practice-bench",
+      "file": "../renovation/music-areas-v9-day.png",
+      "night_file": "../renovation/music-areas-v9-night.png",
+      "bedroom_region": true,
+      "fit_art": true,
+      "region": [
+        445,
+        774,
+        96,
+        126
+      ],
+      "x": 278.125,
+      "y": 570.9375,
+      "w": 60,
+      "h": 104.0625,
+      "depth": 674.1741071428571
+    },
+    {
+      "id": "practice-microphone",
+      "owner": "practice-microphone",
+      "file": "../renovation/practice-equipment-v14.png",
+      "fit_art": true,
+      "region": [
+        395,
+        65,
+        401,
+        661
+      ],
+      "x": 358.3135164523449,
+      "y": 501.0758928571429,
+      "w": 59.62296709531014,
+      "h": 98.28125,
+      "depth": 596.8,
+      "shared_day_night": true
+    },
+    {
+      "id": "practice-music-stand",
+      "owner": "practice-music-stand",
+      "file": "../renovation/practice-equipment-v14.png",
+      "fit_art": true,
+      "region": [
+        1167,
+        41,
+        424,
+        691
+      ],
+      "x": 413.42813210667765,
+      "y": 514.2901785714286,
+      "w": 66.89373578664467,
+      "h": 109.01785714285722,
+      "depth": 621.65625,
+      "shared_day_night": true
+    },
+    {
+      "id": "studio-piano",
+      "owner": "studio-piano",
+      "file": "../renovation/music-areas-v9-day.png",
+      "night_file": "../renovation/music-areas-v9-night.png",
+      "bedroom_region": true,
+      "fit_art": true,
+      "region": [
+        1028,
+        647,
+        225,
+        220
+      ],
+      "x": 642.5,
+      "y": 466.04910714285717,
+      "w": 140.625,
+      "h": 181.6964285714286,
+      "depth": 631.2276785714286
+    },
+    {
+      "id": "studio-piano-bench",
+      "owner": "studio-piano-bench",
+      "file": "../renovation/music-areas-v9-day.png",
+      "night_file": "../renovation/music-areas-v9-night.png",
+      "bedroom_region": true,
+      "fit_art": true,
+      "region": [
+        1088,
+        830,
+        111,
+        66
+      ],
+      "x": 680,
+      "y": 617.1875,
+      "w": 69.375,
+      "h": 54.508928571428555,
+      "depth": 617.1875
+    },
+    {
+      "id": "studio-violin-cabinet",
+      "owner": "studio-violin-cabinet",
+      "file": "../renovation/music-areas-v9-day.png",
+      "night_file": "../renovation/music-areas-v9-night.png",
+      "bedroom_region": true,
+      "fit_art": true,
+      "region": [
+        1287,
+        630,
+        91,
+        247
+      ],
+      "x": 804.375,
+      "y": 452.00892857142856,
+      "w": 56.875,
+      "h": 203.99553571428567,
+      "depth": 655.1785714285714
+    },
+    {
+      "id": "studio-iris-vase",
+      "owner": "studio-iris-vase",
+      "file": "../renovation/music-areas-v9-day.png",
+      "night_file": "../renovation/music-areas-v9-night.png",
+      "bedroom_region": true,
+      "fit_art": true,
+      "region": [
+        868,
+        742,
+        68,
+        115
+      ],
+      "x": 542.5,
+      "y": 544.5089285714286,
+      "w": 42.5,
+      "h": 94.97767857142856,
+      "depth": 638.6607142857142
+    }
+  ]
+}

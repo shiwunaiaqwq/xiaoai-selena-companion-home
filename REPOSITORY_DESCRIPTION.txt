@@ -1,0 +1,1 @@
+基于 Cabin World by VADS 改编的小爱与赛琳娜共同生活小屋、角色卡及 AstrBot 联动。原仓库：https://github.com/BabyBus2022/cabin-world

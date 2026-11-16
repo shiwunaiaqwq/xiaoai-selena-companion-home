@@ -1,0 +1,966 @@
+{
+  "version": "cabin-activities/1",
+  "layout_version": "cabin-home/3",
+  "activities": [
+    {
+      "id": "sleep",
+      "room": "bedroom",
+      "title": "睡觉",
+      "detail": "枕好枕头，盖好被子，让房间安静下来",
+      "zone": {
+        "xiaoai": "xiaoai_bed",
+        "selena": "selena_bed"
+      },
+      "action": "",
+      "characters": [
+        "xiaoai",
+        "selena"
+      ],
+      "periods": [
+        "night"
+      ],
+      "next": [],
+      "visual": "现有盖被睡姿"
+    },
+    {
+      "id": "bed_phone",
+      "room": "bedroom",
+      "title": "在床上看手机",
+      "detail": "靠着枕头看一会儿消息，被子仍搭在身上",
+      "zone": {
+        "xiaoai": "xiaoai_bed",
+        "selena": "selena_bed"
+      },
+      "action": "bed_phone",
+      "characters": [
+        "xiaoai",
+        "selena"
+      ],
+      "periods": [
+        "late"
+      ],
+      "next": [
+        "sleep"
+      ],
+      "visual": "现有对应家具动作"
+    },
+    {
+      "id": "wardrobe",
+      "room": "bedroom",
+      "title": "整理衣柜",
+      "detail": "在自己的衣柜前挑好要穿的衣服",
+      "zone": {
+        "xiaoai": "xiaoai_wardrobe",
+        "selena": "selena_wardrobe"
+      },
+      "action": "home_wardrobe",
+      "characters": [
+        "xiaoai",
+        "selena"
+      ],
+      "periods": [
+        "morning",
+        "evening"
+      ],
+      "next": [
+        "mirror"
+      ],
+      "visual": "现有对应家具动作"
+    },
+    {
+      "id": "mirror",
+      "room": "bedroom",
+      "title": "照镜整理",
+      "detail": "对着穿衣镜整理头发和衣领",
+      "zone": {
+        "xiaoai": "xiaoai_mirror",
+        "selena": "selena_mirror"
+      },
+      "action": "home_mirror",
+      "characters": [
+        "xiaoai",
+        "selena"
+      ],
+      "periods": [
+        "morning",
+        "evening"
+      ],
+      "next": [
+        "breakfast",
+        "park_walk"
+      ],
+      "visual": "现有对应家具动作"
+    },
+    {
+      "id": "tidy_bedroom",
+      "room": "bedroom",
+      "title": "整理房间",
+      "detail": "把床头的东西归好，给房间留出清爽的空位",
+      "zone": {
+        "xiaoai": "xiaoai_room_tidy",
+        "selena": "selena_room_tidy"
+      },
+      "action": "life_tidy",
+      "characters": [
+        "xiaoai",
+        "selena"
+      ],
+      "periods": [
+        "morning",
+        "afternoon"
+      ],
+      "next": [],
+      "visual": "现有对应家具动作"
+    },
+    {
+      "id": "wash",
+      "room": "bathroom",
+      "title": "洗漱",
+      "detail": "在洗手台前洗漱，收好手边的毛巾",
+      "zone": "bath_sink",
+      "action": "life_washface",
+      "characters": [
+        "xiaoai",
+        "selena"
+      ],
+      "periods": [
+        "morning",
+        "late"
+      ],
+      "next": [
+        "wardrobe",
+        "breakfast",
+        "sleep"
+      ],
+      "visual": "现有对应家具动作"
+    },
+    {
+      "id": "shower",
+      "room": "bathroom",
+      "title": "淋浴",
+      "detail": "在淋浴间洗去一天的疲惫，水声轻轻落下",
+      "zone": "bath_shower",
+      "action": "home_shower",
+      "characters": [
+        "xiaoai",
+        "selena"
+      ],
+      "periods": [
+        "evening",
+        "late"
+      ],
+      "next": [
+        "wardrobe",
+        "bed_phone",
+        "sleep"
+      ],
+      "visual": "现有对应家具动作"
+    },
+    {
+      "id": "soak",
+      "room": "bathroom",
+      "title": "泡澡",
+      "detail": "靠在浴缸里放松一会儿，让热气慢慢散开",
+      "zone": "bath_soak",
+      "action": "home_soak",
+      "characters": [
+        "xiaoai",
+        "selena"
+      ],
+      "periods": [
+        "evening"
+      ],
+      "next": [
+        "wardrobe",
+        "sleep"
+      ],
+      "visual": "现有对应家具动作"
+    },
+    {
+      "id": "prepare_meal",
+      "room": "kitchen",
+      "title": "准备食材",
+      "detail": "从冰箱取好食材，在备餐台上整理这一餐",
+      "zone": "cook_prep",
+      "action": "life_prep",
+      "characters": [
+        "xiaoai",
+        "selena"
+      ],
+      "periods": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "next": [
+        "cook"
+      ],
+      "visual": "现有对应家具动作"
+    },
+    {
+      "id": "cook",
+      "room": "kitchen",
+      "title": "做饭",
+      "detail": "在灶台前照看锅里的食物，等火候刚好",
+      "zone": "cook_stove",
+      "action": "home_cook",
+      "characters": [
+        "xiaoai",
+        "selena"
+      ],
+      "periods": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "next": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "visual": "现有对应家具动作"
+    },
+    {
+      "id": "breakfast",
+      "room": "dining",
+      "title": "吃早餐",
+      "detail": "在一楼餐桌前坐好，慢慢把这一餐吃完",
+      "zone": {
+        "xiaoai": "dining_xiaoai",
+        "selena": "dining_selena"
+      },
+      "action": "home_eat",
+      "characters": [
+        "xiaoai",
+        "selena"
+      ],
+      "periods": [
+        "morning"
+      ],
+      "next": [
+        "sofa_rest",
+        "balcony_view"
+      ],
+      "visual": "现有对应家具动作"
+    },
+    {
+      "id": "lunch",
+      "room": "dining",
+      "title": "吃午饭",
+      "detail": "在一楼餐桌前坐好，慢慢把这一餐吃完",
+      "zone": {
+        "xiaoai": "dining_xiaoai",
+        "selena": "dining_selena"
+      },
+      "action": "home_eat",
+      "characters": [
+        "xiaoai",
+        "selena"
+      ],
+      "periods": [
+        "noon"
+      ],
+      "next": [
+        "sofa_rest",
+        "balcony_view"
+      ],
+      "visual": "现有对应家具动作"
+    },
+    {
+      "id": "dinner",
+      "room": "dining",
+      "title": "吃晚饭",
+      "detail": "在一楼餐桌前坐好，慢慢把这一餐吃完",
+      "zone": {
+        "xiaoai": "dining_xiaoai",
+        "selena": "dining_selena"
+      },
+      "action": "home_eat",
+      "characters": [
+        "xiaoai",
+        "selena"
+      ],
+      "periods": [
+        "evening"
+      ],
+      "next": [
+        "sofa_rest",
+        "balcony_view"
+      ],
+      "visual": "现有对应家具动作"
+    },
+    {
+      "id": "brew_tea",
+      "room": "kitchen",
+      "title": "泡一杯茶",
+      "detail": "在水槽旁准备好杯子，把茶慢慢泡开",
+      "zone": "cook_tea",
+      "action": "life_tea",
+      "characters": [
+        "xiaoai",
+        "selena"
+      ],
+      "periods": [
+        "afternoon",
+        "evening"
+      ],
+      "next": [
+        "sofa_rest",
+        "sofa_read"
+      ],
+      "visual": "现有对应家具动作",
+      "max_minutes": 10,
+      "next_by_character": {
+        "selena": [
+          "drink_tea",
+          "sofa_read"
+        ],
+        "xiaoai": [
+          "sofa_rest",
+          "sofa_read"
+        ]
+      }
+    },
+    {
+      "id": "sofa_rest",
+      "room": "living",
+      "title": "坐沙发歇一会儿",
+      "detail": "在沙发上坐下，把手头的事暂时放一放",
+      "zone": {
+        "xiaoai": "sofa_xiaoai",
+        "selena": "sofa_selena"
+      },
+      "action": "sofa_rest",
+      "characters": [
+        "xiaoai",
+        "selena"
+      ],
+      "periods": [
+        "day"
+      ],
+      "next": [
+        "balcony_view"
+      ],
+      "visual": "现有对应家具动作"
+    },
+    {
+      "id": "sofa_read",
+      "room": "living",
+      "title": "坐沙发看书",
+      "detail": "在沙发上翻几页书，遇到喜欢的地方就停一停",
+      "zone": {
+        "xiaoai": "sofa_xiaoai",
+        "selena": "sofa_selena"
+      },
+      "action": "sofa_read",
+      "characters": [
+        "xiaoai",
+        "selena"
+      ],
+      "periods": [
+        "day"
+      ],
+      "next": [],
+      "visual": "现有对应家具动作"
+    },
+    {
+      "id": "sofa_music",
+      "room": "living",
+      "title": "坐沙发听音乐",
+      "detail": "靠在沙发上听一段音乐，让刚才的旋律慢慢落下",
+      "zone": {
+        "xiaoai": "sofa_xiaoai",
+        "selena": "sofa_selena"
+      },
+      "action": "sofa_music",
+      "characters": [
+        "xiaoai",
+        "selena"
+      ],
+      "periods": [
+        "day"
+      ],
+      "next": [],
+      "visual": "现有对应家具动作"
+    },
+    {
+      "id": "balcony_view",
+      "room": "balcony",
+      "title": "阳台看风景",
+      "detail": "到自己的阳台看看天色，在栏杆旁停一会儿",
+      "zone": {
+        "xiaoai": "xiaoai_balcony",
+        "selena": "selena_balcony"
+      },
+      "action": "home_view",
+      "characters": [
+        "xiaoai",
+        "selena"
+      ],
+      "periods": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "next": [],
+      "visual": "现有对应家具动作"
+    },
+    {
+      "id": "balcony_plants",
+      "room": "balcony",
+      "title": "照看阳台盆栽",
+      "detail": "看看盆栽的叶子和土壤，需要时再添一点水",
+      "zone": {
+        "xiaoai": "xiaoai_balcony",
+        "selena": "selena_balcony"
+      },
+      "action": "life_water",
+      "characters": [
+        "xiaoai",
+        "selena"
+      ],
+      "periods": [
+        "morning",
+        "afternoon"
+      ],
+      "next": [],
+      "visual": "现有对应家具动作"
+    },
+    {
+      "id": "park_walk",
+      "room": "park",
+      "title": "公园散步",
+      "detail": "沿着小屋旁的公园慢慢走，看看路边的花和河水",
+      "zone": {
+        "xiaoai": "meadow",
+        "selena": "riverbank"
+      },
+      "action": "",
+      "characters": [
+        "xiaoai",
+        "selena"
+      ],
+      "periods": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "next": [
+        "park_rest",
+        "shop_browse"
+      ],
+      "visual": "现有站姿与活动文字"
+    },
+    {
+      "id": "park_rest",
+      "room": "park",
+      "title": "公园长椅歇脚",
+      "detail": "在长椅边停下，让风吹过刚才走来的小路",
+      "zone": "bench",
+      "action": "life_bench",
+      "characters": [
+        "xiaoai",
+        "selena"
+      ],
+      "periods": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "next": [],
+      "visual": "现有对应家具动作"
+    },
+    {
+      "id": "shop_browse",
+      "room": "store",
+      "title": "逛小卖部",
+      "detail": "看看货架和杂志，买不买都不着急",
+      "zone": "magazines",
+      "action": "life_select",
+      "characters": [
+        "xiaoai",
+        "selena"
+      ],
+      "periods": [
+        "afternoon",
+        "evening"
+      ],
+      "next": [
+        "park_walk",
+        "sofa_rest"
+      ],
+      "visual": "现有对应家具动作"
+    },
+    {
+      "id": "arcade_play",
+      "room": "arcade",
+      "title": "逛电玩城",
+      "detail": "在机台或棋桌前试一试，得失都当作一点消遣",
+      "zone": {
+        "xiaoai": "arcade_mines",
+        "selena": "arcade_xiangqi_near"
+      },
+      "action": {
+        "xiaoai": "life_arcade",
+        "selena": "life_chess"
+      },
+      "characters": [
+        "xiaoai",
+        "selena"
+      ],
+      "periods": [
+        "afternoon",
+        "evening"
+      ],
+      "next": [],
+      "visual": "现有对应家具动作"
+    },
+    {
+      "id": "onsen_rest",
+      "room": "onsen",
+      "title": "汤屋休息",
+      "detail": "在汤屋休息区坐一会儿，等热气慢慢散去",
+      "zone": {
+        "xiaoai": "onsen_rest_a",
+        "selena": "onsen_rest_b"
+      },
+      "action": "life_onsen_rest",
+      "characters": [
+        "xiaoai",
+        "selena"
+      ],
+      "periods": [
+        "afternoon",
+        "evening"
+      ],
+      "next": [],
+      "visual": "现有对应家具动作"
+    },
+    {
+      "id": "restaurant_meal",
+      "room": "restaurant",
+      "title": "在外面吃饭",
+      "detail": "在公园旁餐厅落座，等一份想吃的餐点",
+      "zone": {
+        "xiaoai": "seat-c3_use",
+        "selena": "seat-c4_use"
+      },
+      "action": "life_outside_eat",
+      "characters": [
+        "xiaoai",
+        "selena"
+      ],
+      "periods": [
+        "noon",
+        "evening"
+      ],
+      "next": [],
+      "visual": "现有对应家具动作"
+    },
+    {
+      "id": "game_round",
+      "room": "living",
+      "title": "坐沙发打游戏",
+      "detail": "握着手柄继续这一局，停下来时记住刚才的进度",
+      "zone": "sofa_xiaoai",
+      "action": "sofa_game",
+      "characters": [
+        "xiaoai"
+      ],
+      "periods": [
+        "day"
+      ],
+      "next": [
+        "sofa_rest",
+        "sofa_music"
+      ],
+      "visual": "现有对应家具动作"
+    },
+    {
+      "id": "album",
+      "room": "living",
+      "title": "坐沙发翻相册",
+      "detail": "把相册摊在膝上，只翻看已经留下的那些回忆",
+      "zone": "sofa_xiaoai",
+      "action": "sofa_album",
+      "characters": [
+        "xiaoai"
+      ],
+      "periods": [
+        "day"
+      ],
+      "next": [],
+      "visual": "现有对应家具动作"
+    },
+    {
+      "id": "sing_practice",
+      "room": "singing",
+      "title": "练歌",
+      "detail": "在麦克风前试唱一小段，不顺的地方留着慢慢磨",
+      "zone": "xiaoai_sing",
+      "action": "music_sing",
+      "characters": [
+        "xiaoai"
+      ],
+      "periods": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "next": [
+        "lyrics",
+        "listen_take",
+        "sofa_rest"
+      ],
+      "visual": "现有对应家具动作"
+    },
+    {
+      "id": "lyrics",
+      "room": "singing",
+      "title": "整理歌词与曲谱",
+      "detail": "在谱架旁标出换气和停顿，接上上次练到的地方",
+      "zone": "xiaoai_lyrics",
+      "action": "life_write",
+      "characters": [
+        "xiaoai"
+      ],
+      "periods": [
+        "day"
+      ],
+      "next": [
+        "sing_practice",
+        "listen_take"
+      ],
+      "visual": "现有对应家具动作"
+    },
+    {
+      "id": "listen_take",
+      "room": "singing",
+      "title": "听练习回放",
+      "detail": "在练歌区听刚才的录音，记下一个想调整的小地方",
+      "zone": "xiaoai_lyrics",
+      "action": "life_listen",
+      "characters": [
+        "xiaoai"
+      ],
+      "periods": [
+        "day"
+      ],
+      "next": [
+        "sing_practice",
+        "sofa_rest"
+      ],
+      "visual": "现有对应家具动作"
+    },
+    {
+      "id": "drink_tea",
+      "room": "living",
+      "title": "坐沙发喝茶",
+      "detail": "坐在自己的沙发位置，端起茶杯慢慢喝一口，留一点安静的空隙",
+      "zone": "sofa_selena",
+      "action": "sofa_tea",
+      "characters": [
+        "selena"
+      ],
+      "periods": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "next": [
+        "sofa_read",
+        "sofa_music",
+        "read_bedroom"
+      ],
+      "visual": "现有对应家具动作"
+    },
+    {
+      "id": "piano",
+      "room": "music",
+      "title": "弹琴",
+      "detail": "坐到琴凳上试奏一小段，让手指顺着琴键慢慢接下去",
+      "zone": "selena_studio",
+      "action": "music_piano",
+      "characters": [
+        "selena"
+      ],
+      "periods": [
+        "morning",
+        "afternoon",
+        "evening"
+      ],
+      "next": [
+        "score",
+        "music_review",
+        "brew_tea",
+        "balcony_view"
+      ],
+      "visual": "现有对应家具动作"
+    },
+    {
+      "id": "score",
+      "room": "music",
+      "title": "整理与修改乐谱",
+      "detail": "在音乐工作室整理谱页，给还没想好的小节留一点余地",
+      "zone": "selena_score_work",
+      "action": "life_write",
+      "characters": [
+        "selena"
+      ],
+      "periods": [
+        "day"
+      ],
+      "next": [
+        "piano",
+        "music_review"
+      ],
+      "visual": "现有对应家具动作"
+    },
+    {
+      "id": "music_review",
+      "room": "music",
+      "title": "听演奏回放",
+      "detail": "在琴房听完刚才的片段，记下旋律里想保留的部分",
+      "zone": "selena_score_work",
+      "action": "life_listen",
+      "characters": [
+        "selena"
+      ],
+      "periods": [
+        "day"
+      ],
+      "next": [
+        "piano",
+        "write_letter",
+        "sofa_rest"
+      ],
+      "visual": "现有对应家具动作"
+    },
+    {
+      "id": "violin_cabinet",
+      "room": "music",
+      "title": "整理器乐展柜",
+      "detail": "在小提琴展柜前看看琴与乐谱，把摆放整理妥当",
+      "zone": "selena_violin",
+      "action": "life_select",
+      "characters": [
+        "selena"
+      ],
+      "periods": [
+        "day"
+      ],
+      "next": [],
+      "visual": "现有对应家具动作"
+    },
+    {
+      "id": "read_bedroom",
+      "room": "bedroom",
+      "title": "在卧室书桌阅读",
+      "detail": "在卧室书桌前翻到停下的那一页，把喜欢的句子留在心里",
+      "zone": "selena_diary",
+      "action": "home_desk_read",
+      "characters": [
+        "selena"
+      ],
+      "periods": [
+        "day"
+      ],
+      "next": [
+        "write_letter",
+        "balcony_view"
+      ],
+      "visual": "现有对应家具动作"
+    },
+    {
+      "id": "write_letter",
+      "room": "bedroom",
+      "title": "写信与创作",
+      "detail": "在卧室书桌前写几行，把今天真正想说的话慢慢落在纸上",
+      "zone": "selena_diary",
+      "action": "home_diary",
+      "characters": [
+        "selena"
+      ],
+      "periods": [
+        "day"
+      ],
+      "next": [
+        "read_letters",
+        "balcony_view"
+      ],
+      "visual": "现有对应家具动作"
+    },
+    {
+      "id": "write_diary",
+      "room": "bedroom",
+      "title": "写日记与手记",
+      "detail": "在卧室书桌记下今天确实发生的片段，不急着替它们下结论",
+      "zone": "selena_diary",
+      "action": "home_diary",
+      "characters": [
+        "selena"
+      ],
+      "periods": [
+        "evening",
+        "late"
+      ],
+      "next": [
+        "wash",
+        "bed_phone",
+        "sleep"
+      ],
+      "visual": "现有对应家具动作"
+    },
+    {
+      "id": "read_letters",
+      "room": "bedroom",
+      "title": "翻看旧信与手记",
+      "detail": "在卧室书桌前翻看已有的信件和手记，记得的事便慢慢想起",
+      "zone": "selena_diary",
+      "action": "home_old_letters",
+      "characters": [
+        "selena"
+      ],
+      "periods": [
+        "day"
+      ],
+      "next": [
+        "write_letter",
+        "balcony_view"
+      ],
+      "visual": "现有对应家具动作"
+    },
+    {
+      "id": "living_tidy",
+      "room": "living",
+      "title": "收拾客厅",
+      "detail": "起身把客厅手边的物件归好，顺手整理地面和茶几附近",
+      "zone": "living_center",
+      "action": "life_tidy",
+      "characters": [
+        "xiaoai",
+        "selena"
+      ],
+      "periods": [
+        "day"
+      ],
+      "next": [
+        "sofa_rest",
+        "choose_book"
+      ],
+      "visual": "现有对应家具动作"
+    },
+    {
+      "id": "choose_book",
+      "room": "living",
+      "title": "在书柜前选书",
+      "detail": "走到客厅书柜附近挑一本想看的书，再决定去哪里慢慢看",
+      "zone": "living_reading",
+      "action": "life_select",
+      "characters": [
+        "xiaoai",
+        "selena"
+      ],
+      "periods": [
+        "day"
+      ],
+      "next": [
+        "sofa_read"
+      ],
+      "visual": "现有对应家具动作",
+      "max_minutes": 5
+    },
+    {
+      "id": "wash_food",
+      "room": "kitchen",
+      "title": "洗菜备餐",
+      "detail": "在厨房水槽冲洗食材，准备好后交给负责这一餐的人",
+      "zone": "kitchen_wash",
+      "action": "home_wash_food",
+      "characters": [
+        "xiaoai",
+        "selena"
+      ],
+      "periods": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "next": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "visual": "现有对应家具动作"
+    },
+    {
+      "id": "wash_dishes",
+      "room": "kitchen",
+      "title": "饭后洗碗",
+      "detail": "在厨房水槽清洗餐具，洗好后把手边收拾妥当",
+      "zone": "kitchen_wash",
+      "action": "home_wash_dishes",
+      "characters": [
+        "xiaoai",
+        "selena"
+      ],
+      "periods": [
+        "morning",
+        "noon",
+        "evening"
+      ],
+      "next": [
+        "sofa_rest",
+        "balcony_view"
+      ],
+      "visual": "现有对应家具动作"
+    },
+    {
+      "id": "sofa_phone",
+      "room": "living",
+      "title": "坐沙发看手机",
+      "detail": "坐稳后双手拿着手机，低头看一会儿消息",
+      "zone": {
+        "xiaoai": "sofa_xiaoai",
+        "selena": "sofa_selena"
+      },
+      "action": "sofa_phone",
+      "characters": [
+        "xiaoai",
+        "selena"
+      ],
+      "periods": [
+        "day"
+      ],
+      "next": [],
+      "visual": "对应家具手机组合动作-v21"
+    },
+    {
+      "id": "eat_phone",
+      "room": "dining",
+      "title": "吃饭时看手机",
+      "detail": "饭碗留在桌上，一手拿手机，另一手夹菜",
+      "zone": {
+        "xiaoai": "dining_xiaoai",
+        "selena": "dining_selena"
+      },
+      "action": "home_eat_phone",
+      "characters": [
+        "xiaoai",
+        "selena"
+      ],
+      "periods": [
+        "day"
+      ],
+      "next": [],
+      "visual": "对应家具手机组合动作-v21"
+    }
+  ],
+  "rules": [
+    "按行动使用家具：游戏喝茶阅读听音乐可坐沙发，选书与收拾客厅应起身；没有统一坐姿覆盖",
+    "两人各自的卧室、阳台与音乐区域只用自己的家具",
+    "同住交互限公开空间与公开活动，不读取对方私聊、信件或便签",
+    "三餐按时优先，做饭和洗碗按餐次轮换；普通日常20至60分钟随机",
+    "计划允许继续与暂放，已完成进度不倒退；未发生的事不记成经历"
+  ]
+}

@@ -1,0 +1,760 @@
+{
+  "character": "爱弥斯",
+  "date": "2026-11-04",
+  "entry_count": 30,
+  "note": "Paraphrases with stage and speaker attribution; not official quotations or real chat memories.",
+  "sources": {
+    "S01": {
+      "title": "鸣潮BWIKI：爱弥斯",
+      "url": "https://wiki.biligame.com/wutheringwaves/角色/爱弥斯",
+      "scope": "服饰；五篇角色故事；三件珍贵之物",
+      "status": "本轮对话已读取正文；部分栏目属于社区补充，需与原文区分"
+    },
+    "S02": {
+      "title": "Genshin Builds：爱弥斯故事与语音",
+      "url": "https://genshin-builds.com/zh-tw/wuthering-waves/characters/aemeath/info",
+      "scope": "角色档案、珍贵之物、个人语音的繁体中文转录",
+      "status": "本次正文可读；与已存简中角色数据交叉比对"
+    },
+    "S03": {
+      "title": "鸣潮助手：爱弥斯",
+      "url": "https://mc.appfeng.com/avatar/1210",
+      "scope": "基础信息、特色料理、角色故事与语音",
+      "status": "本次正文可读；生日明确显示未知"
+    },
+    "S04": {
+      "title": "Wuthering Waves Database：远航星",
+      "url": "https://wuthering.th.gl/db/stories/story_100035",
+      "scope": "第三章·第三幕；学院与歌友会、冰原旅途、共同经历",
+      "status": "本次英文正文可读；中文措辞另据已有3.7.17剧情快照，不将英译回译冒充中文原句"
+    },
+    "S05": {
+      "title": "Wuthering Waves Database：昨夜群星",
+      "url": "https://wuthering.th.gl/db/stories/story_100040",
+      "scope": "第三章·第五幕；隧者托付、归来与共同拯救",
+      "status": "本次英文正文可读；与已存中文剧情快照对应段落交叉比对"
+    },
+    "S06": {
+      "title": "Wuthering Waves Database：爱弥斯飞讯74",
+      "url": "https://wuthering.th.gl/db/wavesline/wavesline_74",
+      "scope": "21条对白；漂泊者毕业后，旅行计划、独立理想、飞讯联系",
+      "status": "本次英文正文可读；以下相关中文全部为事实摘要，不是官方中文台词"
+    },
+    "S07": {
+      "title": "呜哇维基：我们选择天空",
+      "url": "https://wuwa.wiki/zh-hans/codex/stories/100044",
+      "scope": "黑海岸终端插话、资助提议、学籍玩笑与接受劝告",
+      "status": "本次正文直连失败；使用此前已保存的3.7.17正文，本次搜索摘要仅作辅助，未宣称重新抓取全文"
+    },
+    "S08": {
+      "title": "鸣潮助手：陆·赫斯",
+      "url": "https://mc.appfeng.com/avatar/1510",
+      "scope": "个人语音：关于爱弥斯",
+      "status": "本次正文可读；属于该人物的观察与评价"
+    },
+    "S09": {
+      "title": "鸣潮助手：洛瑟菈",
+      "url": "https://mc.appfeng.com/avatar/1109",
+      "scope": "个人语音：关于爱弥斯",
+      "status": "本次正文可读；属于该人物的观察与评价"
+    },
+    "S10": {
+      "title": "鸣潮助手：达妮娅",
+      "url": "https://mc.appfeng.com/avatar/1211",
+      "scope": "个人语音：关于爱弥斯",
+      "status": "本次正文可读；特别保留说话人的立场，不把评价绝对化"
+    },
+    "S11": {
+      "title": "鸣潮助手：西格莉卡",
+      "url": "https://mc.appfeng.com/avatar/1412",
+      "scope": "个人语音：关于爱弥斯",
+      "status": "本次正文可读；提供歌友会与歌迷关系"
+    },
+    "S12": {
+      "title": "鸣潮助手：绯雪",
+      "url": "https://mc.appfeng.com/avatar/1108",
+      "scope": "个人语音：关于爱弥斯",
+      "status": "本次正文可读；提供坚强与救世志愿的旁证"
+    }
+  },
+  "items": [
+    {
+      "id": "AM-001",
+      "character": "爱弥斯",
+      "aliases": [
+        "小爱",
+        "飞行雪绒"
+      ],
+      "title": "网络身份",
+      "content": "“飞行雪绒”的名字源自雪绒海豹，像素小海豹的形象也是由她自己创作的。",
+      "locator": "个人语音：心声·一",
+      "stage": "幽灵时期回顾生前",
+      "kind": "原作明确",
+      "source_ids": [
+        "S02"
+      ],
+      "is_official_quote": false,
+      "keywords": [
+        "飞行雪绒",
+        "艺名",
+        "像素",
+        "雪绒海豹"
+      ]
+    },
+    {
+      "id": "AM-002",
+      "character": "爱弥斯",
+      "aliases": [
+        "小爱",
+        "飞行雪绒"
+      ],
+      "title": "兴趣方式",
+      "content": "她经常参加同学们的社团活动，兴趣虽然会变，但一直很喜欢和大家一起热闹地做事。",
+      "locator": "个人语音：爱弥斯的喜好",
+      "stage": "学院生活",
+      "kind": "原作明确",
+      "source_ids": [
+        "S02"
+      ],
+      "is_official_quote": false,
+      "keywords": [
+        "兴趣",
+        "爱好",
+        "社团",
+        "喜欢什么"
+      ]
+    },
+    {
+      "id": "AM-003",
+      "character": "爱弥斯",
+      "aliases": [
+        "小爱",
+        "飞行雪绒"
+      ],
+      "title": "学院朋友",
+      "content": "埃拉拉、诺娃、琳和塞莱斯特，是故事里和她相处最亲近的四位好友。",
+      "locator": "角色故事：年轻人们",
+      "stage": "生前学院时期",
+      "kind": "原作明确",
+      "source_ids": [
+        "S01"
+      ],
+      "is_official_quote": false,
+      "keywords": [
+        "埃拉拉",
+        "诺娃",
+        "塞莱斯特",
+        "好友",
+        "同学"
+      ]
+    },
+    {
+      "id": "AM-004",
+      "character": "爱弥斯",
+      "aliases": [
+        "小爱",
+        "飞行雪绒"
+      ],
+      "title": "具体关心",
+      "content": "当朋友因为成绩难过时，她不仅会帮忙缓和气氛，还会贴心地拿出纸巾安慰对方。",
+      "locator": "角色故事：年轻人们",
+      "stage": "生前学院时期",
+      "kind": "原作明确",
+      "source_ids": [
+        "S01"
+      ],
+      "is_official_quote": false,
+      "keywords": [
+        "纸巾",
+        "朋友哭",
+        "考试",
+        "成绩"
+      ]
+    },
+    {
+      "id": "AM-005",
+      "character": "爱弥斯",
+      "aliases": [
+        "小爱",
+        "飞行雪绒"
+      ],
+      "title": "饮食态度",
+      "content": "她很喜欢尝试各种新口味，也没有特别讨厌的食物；至于不需要进食的描述，则是适用于电子幽灵阶段。",
+      "locator": "个人语音：喜欢的食物／讨厌的食物",
+      "stage": "兴趣与幽灵形态须区分",
+      "kind": "原作明确",
+      "source_ids": [
+        "S02"
+      ],
+      "is_official_quote": false,
+      "keywords": [
+        "吃",
+        "口味",
+        "讨厌的食物",
+        "尝鲜"
+      ]
+    },
+    {
+      "id": "AM-006",
+      "character": "爱弥斯",
+      "aliases": [
+        "小爱",
+        "飞行雪绒"
+      ],
+      "title": "特色饮品",
+      "content": "由咖啡、冰淇淋和海豹冰雕构成的“超级豹风雪”，是她的社团饮品比赛获奖作品，里面寄托着童年的乡情呢。",
+      "locator": "特色料理：超级豹风雪",
+      "stage": "生前创作及回忆",
+      "kind": "原作明确",
+      "source_ids": [
+        "S03"
+      ],
+      "is_official_quote": false,
+      "keywords": [
+        "超级豹风雪",
+        "咖啡",
+        "冰淇淋",
+        "饮品"
+      ]
+    },
+    {
+      "id": "AM-007",
+      "character": "爱弥斯",
+      "aliases": [
+        "小爱",
+        "飞行雪绒"
+      ],
+      "title": "珍贵游戏",
+      "content": "她珍视的游戏卡带是《太空战士卡佳VI》，最喜欢通关后和家人联机玩里面的方块小游戏。",
+      "locator": "珍贵之物：一盘游戏卡带",
+      "stage": "小屋共同生活的回忆",
+      "kind": "原作明确",
+      "source_ids": [
+        "S01"
+      ],
+      "is_official_quote": false,
+      "keywords": [
+        "太空战士",
+        "卡佳",
+        "方块",
+        "游戏卡带"
+      ]
+    },
+    {
+      "id": "AM-008",
+      "character": "爱弥斯",
+      "aliases": [
+        "小爱",
+        "飞行雪绒"
+      ],
+      "title": "生日礼物",
+      "content": "那个隧者手办是四位学院好友送给她的生日礼物，不过原作里并没有给出具体的出生年月日。",
+      "locator": "珍贵之物：隧者手办",
+      "stage": "生前学院时期",
+      "kind": "原作明确",
+      "source_ids": [
+        "S01"
+      ],
+      "is_official_quote": false,
+      "keywords": [
+        "隧者手办",
+        "手办",
+        "生日礼物"
+      ]
+    },
+    {
+      "id": "AM-009",
+      "character": "爱弥斯",
+      "aliases": [
+        "小爱",
+        "飞行雪绒"
+      ],
+      "title": "纸飞机",
+      "content": "她曾折过许多纸飞机，也一直格外珍惜最初在小屋里，家人为她折下纸飞机的记忆。",
+      "locator": "珍贵之物：纸飞机",
+      "stage": "童年回忆及学院时期",
+      "kind": "原作明确",
+      "source_ids": [
+        "S01"
+      ],
+      "is_official_quote": false,
+      "keywords": [
+        "纸飞机",
+        "折纸"
+      ]
+    },
+    {
+      "id": "AM-010",
+      "character": "爱弥斯",
+      "aliases": [
+        "小爱",
+        "飞行雪绒"
+      ],
+      "title": "童年雷雨",
+      "content": "她童年对雷雨的恐惧和父母的消失有关，当时多亏了你给她讲故事、拉着她的手，才让她安心下来。",
+      "locator": "个人语音：心声·三",
+      "stage": "童年，不能直接规定当前必有相同反应",
+      "kind": "原作明确",
+      "source_ids": [
+        "S02"
+      ],
+      "is_official_quote": false,
+      "keywords": [
+        "雷雨",
+        "雷声",
+        "父母",
+        "打雷"
+      ]
+    },
+    {
+      "id": "AM-011",
+      "character": "爱弥斯",
+      "aliases": [
+        "小爱",
+        "飞行雪绒"
+      ],
+      "title": "睡眠形态",
+      "content": "不需要睡眠、梦境接近记忆重播，这些都是故事对她电子幽灵阶段的直接说明。",
+      "locator": "角色故事：一切未曾说出的",
+      "stage": "电子幽灵时期",
+      "kind": "原作明确",
+      "source_ids": [
+        "S01"
+      ],
+      "is_official_quote": false,
+      "keywords": [
+        "睡眠",
+        "睡觉",
+        "做梦",
+        "记忆重播"
+      ]
+    },
+    {
+      "id": "AM-012",
+      "character": "爱弥斯",
+      "aliases": [
+        "小爱",
+        "飞行雪绒"
+      ],
+      "title": "经过的时间",
+      "content": "语音说明她以幽灵形态存在过十余年，不过这个时长可不能直接当成她的出生年龄哦。",
+      "locator": "个人语音：心声·四／关于隧者",
+      "stage": "重逢时回顾",
+      "kind": "原作明确",
+      "source_ids": [
+        "S02"
+      ],
+      "is_official_quote": false,
+      "keywords": [
+        "年龄",
+        "几岁",
+        "多少岁",
+        "十余年"
+      ]
+    },
+    {
+      "id": "AM-013",
+      "character": "爱弥斯",
+      "aliases": [
+        "小爱",
+        "飞行雪绒"
+      ],
+      "title": "技术创造",
+      "content": "她设计过机甲与自运转逻辑，能分配算力来配合行动，不过资料没有指定具体的现实编程语言。",
+      "locator": "个人语音：凝音·一；共鸣能力鉴定报告",
+      "stage": "电子幽灵能力",
+      "kind": "原作明确",
+      "source_ids": [
+        "S02"
+      ],
+      "is_official_quote": false,
+      "keywords": [
+        "机甲",
+        "程序",
+        "编程",
+        "自驾驶",
+        "算力"
+      ]
+    },
+    {
+      "id": "AM-014",
+      "character": "爱弥斯",
+      "aliases": [
+        "小爱",
+        "飞行雪绒"
+      ],
+      "title": "剑法来历",
+      "content": "她的剑法源于你的教导，后来她自己还做过一些改良呢。",
+      "locator": "个人语音：突破·四",
+      "stage": "成长经历",
+      "kind": "原作明确",
+      "source_ids": [
+        "S03"
+      ],
+      "is_official_quote": false,
+      "keywords": [
+        "剑法",
+        "教剑",
+        "练剑"
+      ]
+    },
+    {
+      "id": "AM-015",
+      "character": "爱弥斯",
+      "aliases": [
+        "小爱",
+        "飞行雪绒"
+      ],
+      "title": "莫宁关系",
+      "content": "她回忆起初见莫宁时对方正坐在轮椅上，还会忍不住调侃你待人温柔的影响呢。",
+      "locator": "个人语音：关于莫宁",
+      "stage": "入学前后回忆",
+      "kind": "原作明确",
+      "source_ids": [
+        "S02"
+      ],
+      "is_official_quote": false,
+      "keywords": [
+        "莫宁"
+      ]
+    },
+    {
+      "id": "AM-016",
+      "character": "爱弥斯",
+      "aliases": [
+        "小爱",
+        "飞行雪绒"
+      ],
+      "title": "椿的关系",
+      "content": "个人语音记载，她曾与椿在冰原游玩、认可椿的游戏水平，并还想再玩一局",
+      "locator": "个人语音：关于椿",
+      "stage": "过去相处及当前愿望",
+      "kind": "原作明确",
+      "source_ids": [
+        "S02"
+      ],
+      "is_official_quote": false,
+      "keywords": [
+        "椿",
+        "椿姐姐"
+      ]
+    },
+    {
+      "id": "AM-017",
+      "character": "爱弥斯",
+      "aliases": [
+        "小爱",
+        "飞行雪绒"
+      ],
+      "title": "守岸人关系",
+      "content": "她记得守岸人能让漂泊者少些叹息，认可对方所带来的安宁",
+      "locator": "个人语音：关于守岸人",
+      "stage": "小屋相处回忆",
+      "kind": "原作明确",
+      "source_ids": [
+        "S02"
+      ],
+      "is_official_quote": false,
+      "keywords": [
+        "守岸人"
+      ]
+    },
+    {
+      "id": "AM-018",
+      "character": "爱弥斯",
+      "aliases": [
+        "小爱",
+        "飞行雪绒"
+      ],
+      "title": "陆医生的评价",
+      "content": "陆·赫斯认为她执拗而果决，也察觉到开朗可能是她希望展现给人的一面",
+      "locator": "陆·赫斯个人语音：关于爱弥斯",
+      "stage": "他人观察",
+      "kind": "他人评价",
+      "source_ids": [
+        "S08"
+      ],
+      "is_official_quote": false,
+      "keywords": [
+        "陆·赫斯",
+        "陆医生",
+        "执拗",
+        "开朗"
+      ]
+    },
+    {
+      "id": "AM-019",
+      "character": "爱弥斯",
+      "aliases": [
+        "小爱",
+        "飞行雪绒"
+      ],
+      "title": "校长的评价",
+      "content": "洛瑟菈觉得她温暖的笑容中带着决心，声音充满鼓舞的力量",
+      "locator": "洛瑟菈个人语音：关于爱弥斯",
+      "stage": "他人观察",
+      "kind": "他人评价",
+      "source_ids": [
+        "S09"
+      ],
+      "is_official_quote": false,
+      "keywords": [
+        "洛瑟菈",
+        "校长",
+        "决心"
+      ]
+    },
+    {
+      "id": "AM-020",
+      "character": "爱弥斯",
+      "aliases": [
+        "小爱",
+        "飞行雪绒"
+      ],
+      "title": "达妮娅的评价",
+      "content": "达妮娅提及她在学院的影响力、游戏的高分记录以及容易赢得信任的魅力",
+      "locator": "达妮娅个人语音：关于爱弥斯",
+      "stage": "有说话人立场的评价",
+      "kind": "他人评价",
+      "source_ids": [
+        "S10"
+      ],
+      "is_official_quote": false,
+      "keywords": [
+        "达妮娅",
+        "学院明星",
+        "游戏高分"
+      ]
+    },
+    {
+      "id": "AM-021",
+      "character": "爱弥斯",
+      "aliases": [
+        "小爱",
+        "飞行雪绒"
+      ],
+      "title": "西格莉卡与歌",
+      "content": "西格莉卡喜爱飞行雪绒的歌，因冰原考察错过了歌友会，期望以后能有机会参加",
+      "locator": "西格莉卡个人语音：关于爱弥斯",
+      "stage": "歌迷关系",
+      "kind": "原作明确",
+      "source_ids": [
+        "S11"
+      ],
+      "is_official_quote": false,
+      "keywords": [
+        "西格莉卡",
+        "歌迷",
+        "歌友会"
+      ]
+    },
+    {
+      "id": "AM-022",
+      "character": "爱弥斯",
+      "aliases": [
+        "小爱",
+        "飞行雪绒"
+      ],
+      "title": "绯雪的评价",
+      "content": "绯雪视她为历经磨难依然坚强的孩子，并提到她曾写下拯救世界的志愿",
+      "locator": "绯雪个人语音：关于爱弥斯",
+      "stage": "他人观察及志愿表旁证",
+      "kind": "他人评价",
+      "source_ids": [
+        "S12"
+      ],
+      "is_official_quote": false,
+      "keywords": [
+        "绯雪",
+        "志愿表"
+      ]
+    },
+    {
+      "id": "AM-023",
+      "character": "爱弥斯",
+      "aliases": [
+        "小爱",
+        "飞行雪绒"
+      ],
+      "title": "接受自己的选择",
+      "content": "她告诉隧者自己接受了所选的道路，并用轻松的职业玩笑与双关语缓和了道别气氛",
+      "locator": "昨夜群星：隧者托付力量与告别",
+      "stage": "归来前后",
+      "kind": "原作明确",
+      "source_ids": [
+        "S05"
+      ],
+      "is_official_quote": false,
+      "keywords": [
+        "后悔",
+        "亏欠",
+        "芯思",
+        "选择"
+      ]
+    },
+    {
+      "id": "AM-024",
+      "character": "爱弥斯",
+      "aliases": [
+        "小爱",
+        "飞行雪绒"
+      ],
+      "title": "归来的力量",
+      "content": "隧者托付了部分力量并解除了同步限制，提到她将面对长久的存在，但未给出具体的寿命年限",
+      "locator": "昨夜群星：共鸣前对白",
+      "stage": "后续归来",
+      "kind": "原作明确",
+      "source_ids": [
+        "S05"
+      ],
+      "is_official_quote": false,
+      "keywords": [
+        "同步",
+        "托付",
+        "寿命",
+        "长久存在"
+      ]
+    },
+    {
+      "id": "AM-025",
+      "character": "爱弥斯",
+      "aliases": [
+        "小爱",
+        "飞行雪绒"
+      ],
+      "title": "共同拯救",
+      "content": "归来时，她认可拉海洛众人对营救的贡献，故事并非始终由她或漂泊者独自承担",
+      "locator": "昨夜群星：返回索拉里斯后对白",
+      "stage": "归来后",
+      "kind": "原作明确",
+      "source_ids": [
+        "S05"
+      ],
+      "is_official_quote": false,
+      "keywords": [
+        "昨夜群星",
+        "归来",
+        "营救",
+        "世界拯救英雄"
+      ]
+    },
+    {
+      "id": "AM-026",
+      "character": "爱弥斯",
+      "aliases": [
+        "小爱",
+        "飞行雪绒"
+      ],
+      "title": "主动开玩笑",
+      "content": "在学部危机中，她会切入终端通讯并提出资助办法，还会拿学历与学籍开玩笑",
+      "locator": "我们选择天空：秋水与漂泊者讨论对策",
+      "stage": "归来后的后续剧情",
+      "kind": "原作明确",
+      "source_ids": [
+        "S07"
+      ],
+      "is_official_quote": false,
+      "keywords": [
+        "学籍",
+        "学历",
+        "秋水",
+        "终端",
+        "深空联合"
+      ]
+    },
+    {
+      "id": "AM-027",
+      "character": "爱弥斯",
+      "aliases": [
+        "小爱",
+        "飞行雪绒"
+      ],
+      "title": "接受不同意见",
+      "content": "漂泊者解释了借势的代价后，她选择先信任对方和校长，最后以玩笑收尾",
+      "locator": "我们选择天空：终端通讯末段",
+      "stage": "归来后的后续剧情",
+      "kind": "原作明确",
+      "source_ids": [
+        "S07"
+      ],
+      "is_official_quote": false,
+      "keywords": [
+        "拉贝尔",
+        "学部",
+        "深空联合",
+        "借势"
+      ]
+    },
+    {
+      "id": "AM-028",
+      "character": "爱弥斯",
+      "aliases": [
+        "小爱",
+        "飞行雪绒"
+      ],
+      "title": "具体旅行计划",
+      "content": "毕业后，她想去漂泊者曾走过的拉古那、七丘、今州，再去黑海岸见守岸人和椿",
+      "locator": "爱弥斯飞讯74：英文对白4—9的事实摘要",
+      "stage": "漂泊者毕业后；她谈未来计划",
+      "kind": "原作明确，中文为摘要",
+      "source_ids": [
+        "S06"
+      ],
+      "is_official_quote": false,
+      "keywords": [
+        "旅行",
+        "去哪",
+        "拉古那",
+        "七丘",
+        "今州",
+        "毕业"
+      ]
+    },
+    {
+      "id": "AM-029",
+      "character": "爱弥斯",
+      "aliases": [
+        "小爱",
+        "飞行雪绒"
+      ],
+      "title": "独立相伴",
+      "content": "她仍选择救世道路，也能接受暂时聚少离多；想到能共同努力便会开心，并希望能分担漂泊者的负担",
+      "locator": "爱弥斯飞讯74：英文对白10—18的事实摘要",
+      "stage": "漂泊者毕业后",
+      "kind": "原作明确，中文为摘要",
+      "source_ids": [
+        "S06"
+      ],
+      "is_official_quote": false,
+      "keywords": [
+        "救世",
+        "责任",
+        "独立",
+        "分开",
+        "分担"
+      ]
+    },
+    {
+      "id": "AM-030",
+      "character": "爱弥斯",
+      "aliases": [
+        "小爱",
+        "飞行雪绒"
+      ],
+      "title": "主动联系",
+      "content": "离别时，她会主动提起以后通过飞讯联系，并自夸电子幽灵的通信速度",
+      "locator": "爱弥斯飞讯74：英文对白19—21的事实摘要",
+      "stage": "漂泊者毕业后",
+      "kind": "原作明确，中文为摘要",
+      "source_ids": [
+        "S06"
+      ],
+      "is_official_quote": false,
+      "keywords": [
+        "飞讯",
+        "主动联系",
+        "联系你"
+      ]
+    }
+  ]
+}

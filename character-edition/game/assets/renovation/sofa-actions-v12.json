@@ -1,0 +1,120 @@
+{
+  "scene": "xiaojingyu-home",
+  "module": "living-sofa",
+  "fps": 3,
+  "body": [
+    368.25,
+    443.75,
+    182.5,
+    75.625
+  ],
+  "tv_screen": [
+    420.125,
+    338.125,
+    79.375,
+    31.875
+  ],
+  "tv_sort": 409.5,
+  "states": {
+    "xiaoai": {
+      "atlas": "res://assets/renovation/sofa-xiaoai-v12.png",
+      "registration": [
+        [
+          17,
+          593,
+          560
+        ],
+        [
+          17,
+          593,
+          560
+        ],
+        [
+          17,
+          593,
+          534
+        ],
+        [
+          17,
+          593,
+          534
+        ]
+      ]
+    },
+    "selena": {
+      "atlas": "res://assets/renovation/sofa-selena-v12.png",
+      "registration": [
+        [
+          18,
+          591,
+          559
+        ],
+        [
+          18,
+          591,
+          559
+        ],
+        [
+          18,
+          591,
+          533
+        ],
+        [
+          18,
+          591,
+          533
+        ]
+      ]
+    },
+    "empty": {
+      "atlas": "res://assets/renovation/sofa-empty-v12.png",
+      "registration": [
+        [
+          16,
+          595,
+          561
+        ],
+        [
+          17,
+          594,
+          561
+        ],
+        [
+          17,
+          594,
+          561
+        ],
+        [
+          17,
+          594,
+          561
+        ]
+      ]
+    },
+    "both": {
+      "atlas": "res://assets/renovation/sofa-both-v12.png",
+      "registration": [
+        [
+          18,
+          591,
+          559
+        ],
+        [
+          18,
+          591,
+          559
+        ],
+        [
+          18,
+          591,
+          559
+        ],
+        [
+          18,
+          591,
+          559
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+/* Entire-page palettes, including surfaces, follow the selected resident. */
+:root,html[data-resident="xiaoai"] {
+  --bg:#2b1929;--bg-deep:#201321;--panel:#3a2638;--panel-soft:#483044;
+  --ink:#fff0f6;--muted:#ccb1c6;--quiet:#a287a0;--line:#614056;
+  --accent:#ffb5d5;--accent-soft:rgba(255,166,204,.11);--accent-line:rgba(255,181,213,.4);
+  --second:#a8e5e7;--gradient:linear-gradient(110deg,#ffb3d9,#a5e2e6);--page-glow:rgba(199,91,143,.21);
+}
+html[data-resident="selena"] {
+  --bg:#162346;--bg-deep:#131a36;--panel:#243256;--panel-soft:#303d65;
+  --ink:#f0f2ff;--muted:#b7bfdc;--quiet:#8c98bd;--line:#43557d;
+  --accent:#c1c4ff;--accent-soft:rgba(176,187,255,.12);--accent-line:rgba(188,197,255,.4);
+  --second:#d7dcf8;--gradient:linear-gradient(110deg,#c9c3ff,#a5ccf5);--page-glow:rgba(104,118,222,.23);
+}
+html { background:var(--bg); }
+body { min-height:100vh;background:radial-gradient(ellipse at 10% 0,var(--page-glow),transparent 63%),linear-gradient(145deg,var(--bg),var(--bg-deep));background-attachment:fixed;transition:background-color .35s,color .35s; }
+.card,.resident-tabs,.note,textarea { transition:background-color .35s,border-color .35s; }
+.quote-card { background:linear-gradient(150deg,var(--panel),var(--accent-soft)); }
+.note.from-her { background:var(--accent-soft); }
+#toast { background:var(--panel-soft); }
+html[data-resident="xiaoai"] .window-frame { border-color:#735069; }
+html[data-resident="xiaoai"] .window-cross,html[data-resident="xiaoai"] .window-cross:after { background:#735069; }
+html[data-resident="selena"] .window-frame { border-color:#52618a; }
+html[data-resident="selena"] .window-cross,html[data-resident="selena"] .window-cross:after { background:#52618a; }
+
+.household-card{padding:28px}.household-card h3{font-size:15px;margin-top:24px}.house-item{padding:12px 0;border-bottom:1px solid #ffffff12}.house-item p,.mail-item p{line-height:1.9;white-space:pre-wrap;overflow-wrap:anywhere}.mail-item{margin:14px 0}.mail-item summary{cursor:pointer}.sleeping .window-art{filter:brightness(.45)}.sleeping .scene-card{box-shadow:inset 0 0 80px #0003}.waking .window-art{filter:brightness(.8)}.room-state{overflow-wrap:anywhere}.room{min-height:110px}.household-card span{font-size:12px}

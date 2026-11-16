@@ -1,0 +1,12 @@
+{
+  "name": "companion-home-bridge",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "start": "node bridge.mjs",
+    "test": "node test-mapping.mjs"
+  }
+}

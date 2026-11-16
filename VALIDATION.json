@@ -1,0 +1,10 @@
+{
+  "syntax_and_json_checks": 85,
+  "mapping_test_checks": 156,
+  "mapping_layout_points": 171,
+  "known_personal_identifiers_and_key_patterns": 0,
+  "runtime_databases_included": false,
+  "fresh_machine_installation_verified": false,
+  "upstream": "https://github.com/BabyBus2022/cabin-world",
+  "attribution": "Cabin World by VADS"
+}

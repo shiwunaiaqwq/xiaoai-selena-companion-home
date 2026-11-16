@@ -1,0 +1,413 @@
+{
+  "scene": "xiaojingyu-home",
+  "scale": 2,
+  "ground": {
+    "file": "../renovation/first-floor-day.png",
+    "night_file": "../renovation/first-floor-night.png",
+    "x": 0,
+    "y": 0,
+    "w": 960,
+    "h": 640,
+    "registration": {
+      "x": [
+        [
+          0,
+          0
+        ],
+        [
+          1536,
+          960
+        ]
+      ],
+      "y": [
+        [
+          0,
+          0
+        ],
+        [
+          1024,
+          640
+        ]
+      ]
+    },
+    "patches": [
+      {
+        "id": "living-old-area-clear-v12",
+        "file": "../renovation/living-group-left-day-v12.png",
+        "night_file": "../renovation/living-group-left-night-v12.png",
+        "feather": 16,
+        "registration": {
+          "x": [
+            [
+              900,
+              562.5
+            ],
+            [
+              1240,
+              775
+            ]
+          ],
+          "y": [
+            [
+              510,
+              318.75
+            ],
+            [
+              860,
+              537.5
+            ]
+          ]
+        }
+      },
+      {
+        "id": "living-group-left-v12",
+        "file": "../renovation/living-group-left-day-v12.png",
+        "night_file": "../renovation/living-group-left-night-v12.png",
+        "feather": 16,
+        "registration": {
+          "x": [
+            [
+              320,
+              232
+            ],
+            [
+              945,
+              622.625
+            ]
+          ],
+          "y": [
+            [
+              534,
+              333.75
+            ],
+            [
+              860,
+              537.5
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "layers": [
+    {
+      "id": "shared-stairs",
+      "owner": "shared-stairs",
+      "file": "../renovation/stairs-wall-up.png",
+      "procedural": "directional_stairs",
+      "x": 80,
+      "y": 340,
+      "w": 145,
+      "h": 202,
+      "depth": 340
+    },
+    {
+      "id": "kitchen-counter",
+      "owner": "kitchen-counter",
+      "file": "../renovation/first-floor-day.png",
+      "night_file": "../renovation/first-floor-night.png",
+      "fit_art": true,
+      "bedroom_region": true,
+      "region": [
+        127,
+        107,
+        388,
+        194
+      ],
+      "x": 79.375,
+      "y": 66.875,
+      "w": 242.5,
+      "h": 121.25,
+      "depth": 185
+    },
+    {
+      "id": "kitchen-left-counter",
+      "owner": "kitchen-left-counter",
+      "file": "../renovation/first-floor-day.png",
+      "night_file": "../renovation/first-floor-night.png",
+      "fit_art": true,
+      "bedroom_region": true,
+      "region": [
+        125,
+        270,
+        64,
+        136
+      ],
+      "x": 78.125,
+      "y": 168.75,
+      "w": 40,
+      "h": 85,
+      "depth": 253.75
+    },
+    {
+      "id": "kitchen-fridge",
+      "owner": "kitchen-fridge",
+      "file": "../renovation/first-floor-day.png",
+      "night_file": "../renovation/first-floor-night.png",
+      "fit_art": true,
+      "bedroom_region": true,
+      "region": [
+        517,
+        158,
+        73,
+        150
+      ],
+      "x": 323.125,
+      "y": 98.75,
+      "w": 45.625,
+      "h": 93.75,
+      "depth": 193.125
+    },
+    {
+      "id": "dining-sideboard",
+      "owner": "dining-sideboard",
+      "file": "../renovation/first-floor-day.png",
+      "night_file": "../renovation/first-floor-night.png",
+      "fit_art": true,
+      "bedroom_region": true,
+      "region": [
+        767,
+        79,
+        146,
+        191
+      ],
+      "x": 479.375,
+      "y": 49.375,
+      "w": 91.25,
+      "h": 119.375,
+      "depth": 168.125
+    },
+    {
+      "id": "dining-table",
+      "owner": "dining-table",
+      "file": "../renovation/first-floor-day.png",
+      "night_file": "../renovation/first-floor-night.png",
+      "fit_art": true,
+      "bedroom_region": true,
+      "region": [
+        973,
+        233,
+        230,
+        133
+      ],
+      "x": 608.125,
+      "y": 145.625,
+      "w": 143.75,
+      "h": 83.125,
+      "depth": 228.75
+    },
+    {
+      "id": "dining-chair-nw",
+      "owner": "dining-chair-nw",
+      "file": "../renovation/first-floor-day.png",
+      "night_file": "../renovation/first-floor-night.png",
+      "fit_art": true,
+      "bedroom_region": true,
+      "region": [
+        1000,
+        190,
+        68,
+        65
+      ],
+      "x": 625,
+      "y": 118.75,
+      "w": 42.5,
+      "h": 40.625,
+      "depth": 161.25
+    },
+    {
+      "id": "dining-chair-ne",
+      "owner": "dining-chair-ne",
+      "file": "../renovation/first-floor-day.png",
+      "night_file": "../renovation/first-floor-night.png",
+      "fit_art": true,
+      "bedroom_region": true,
+      "region": [
+        1107,
+        190,
+        69,
+        65
+      ],
+      "x": 691.875,
+      "y": 118.75,
+      "w": 43.125,
+      "h": 40.625,
+      "depth": 161.25
+    },
+    {
+      "id": "dining-chair-sw",
+      "owner": "dining-chair-sw",
+      "file": "../renovation/first-floor-day.png",
+      "night_file": "../renovation/first-floor-night.png",
+      "fit_art": true,
+      "bedroom_region": true,
+      "region": [
+        1003,
+        293,
+        70,
+        93
+      ],
+      "x": 626.875,
+      "y": 183.125,
+      "w": 43.75,
+      "h": 58.125,
+      "depth": 241.25
+    },
+    {
+      "id": "dining-chair-se",
+      "owner": "dining-chair-se",
+      "file": "../renovation/first-floor-day.png",
+      "night_file": "../renovation/first-floor-night.png",
+      "fit_art": true,
+      "bedroom_region": true,
+      "region": [
+        1105,
+        293,
+        71,
+        93
+      ],
+      "x": 690.625,
+      "y": 183.125,
+      "w": 44.375,
+      "h": 58.125,
+      "depth": 241.25
+    },
+    {
+      "id": "living-tv",
+      "owner": "living-tv",
+      "file": "../renovation/living-group-left-day-v12.png",
+      "night_file": "../renovation/living-group-left-night-v12.png",
+      "fit_art": true,
+      "bedroom_region": true,
+      "region": [
+        540,
+        530,
+        294,
+        132
+      ],
+      "x": 369.5,
+      "y": 331.25,
+      "w": 183.75,
+      "h": 82.5,
+      "depth": 409.375
+    },
+    {
+      "id": "living-armchair",
+      "owner": "living-armchair",
+      "file": "../renovation/living-group-left-day-v12.png",
+      "night_file": "../renovation/living-group-left-night-v12.png",
+      "fit_art": true,
+      "bedroom_region": true,
+      "region": [
+        337,
+        610,
+        155,
+        176
+      ],
+      "x": 242.625,
+      "y": 381.25,
+      "w": 96.875,
+      "h": 110,
+      "depth": 486.875
+    },
+    {
+      "id": "living-coffee-table",
+      "owner": "living-coffee-table",
+      "file": "../renovation/living-group-left-day-v12.png",
+      "night_file": "../renovation/living-group-left-night-v12.png",
+      "fit_art": true,
+      "bedroom_region": true,
+      "region": [
+        600,
+        632,
+        173,
+        119
+      ],
+      "x": 407,
+      "y": 395,
+      "w": 108.125,
+      "h": 74.375,
+      "depth": 463.125
+    },
+    {
+      "id": "living-sofa",
+      "owner": "living-sofa",
+      "file": "../renovation/sofa-empty-v12.png",
+      "x": 368.25,
+      "y": 443.75,
+      "w": 182.5,
+      "h": 75.625,
+      "depth": 519.375,
+      "procedural": "sofa_actions"
+    },
+    {
+      "id": "living-side-table",
+      "owner": "living-side-table",
+      "file": "../renovation/living-group-left-day-v12.png",
+      "night_file": "../renovation/living-group-left-night-v12.png",
+      "fit_art": true,
+      "bedroom_region": true,
+      "region": [
+        823,
+        677,
+        91,
+        163
+      ],
+      "x": 546.375,
+      "y": 423.125,
+      "w": 56.875,
+      "h": 101.875,
+      "depth": 520
+    },
+    {
+      "id": "living-bookcase",
+      "owner": "living-bookcase",
+      "file": "../renovation/first-floor-day.png",
+      "night_file": "../renovation/first-floor-night.png",
+      "fit_art": true,
+      "bedroom_region": true,
+      "region": [
+        1298,
+        550,
+        100,
+        178
+      ],
+      "x": 811.25,
+      "y": 343.75,
+      "w": 62.5,
+      "h": 111.25,
+      "depth": 455.625
+    },
+    {
+      "id": "entry-sofa-occluder",
+      "owner": "entry-sofa-occluder",
+      "file": "../renovation/living-group-left-day-v12.png",
+      "night_file": "../renovation/living-group-left-night-v12.png",
+      "x": 637.5,
+      "y": 478.75,
+      "w": 70.625,
+      "h": 52.5,
+      "depth": 540,
+      "foreground_polygons": [
+        [
+          [
+            1020,
+            766
+          ],
+          [
+            1133,
+            766
+          ],
+          [
+            1133,
+            850
+          ],
+          [
+            1020,
+            850
+          ]
+        ]
+      ]
+    }
+  ]
+}

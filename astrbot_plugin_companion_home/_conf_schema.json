@@ -1,0 +1,80 @@
+{
+  "enabled": {
+    "type": "bool",
+    "description": "启用虚拟日常与聊天状态联动",
+    "default": true
+  },
+  "character": {
+    "type": "string",
+    "description": "本实例角色：xiaoai 或 selena",
+    "default": "xiaoai"
+  },
+  "owner_qq": {
+    "type": "string",
+    "description": "主人QQ",
+    "default": "0"
+  },
+  "owner_umo": {
+    "type": "string",
+    "description": "主人私聊会话UMO（用于选择现有模型）",
+    "default": ""
+  },
+  "shared_directory": {
+    "type": "string",
+    "description": "两个实例共用的本地居所数据目录",
+    "default": ""
+  },
+  "ai_planner": {
+    "type": "bool",
+    "description": "每30～90分钟随机使用现有聊天模型安排日常，睡眠和共同活动不强制打断",
+    "default": true
+  },
+  "lan_enabled": {
+    "type": "bool",
+    "description": "启用仅查看的同Wi-Fi入口（需要主人密码）",
+    "default": false
+  },
+  "lan_host": {
+    "type": "string",
+    "description": "本机Wi-Fi的IPv4地址",
+    "default": ""
+  },
+  "lan_port": {
+    "type": "int",
+    "description": "同Wi-Fi查看端口",
+    "default": 18782
+  },
+  "sister_group_enabled": {
+    "description": "将姐妹交流同步到QQ家庭群",
+    "type": "bool",
+    "default": false
+  },
+  "sister_group_id": {
+    "description": "姐妹家庭群号",
+    "type": "string",
+    "default": "",
+    "hint": "只对这里的主人群聊启用共同语境，普通群保持原规则。"
+  },
+  "global_personality_evolution_enabled": {
+    "type": "bool",
+    "default": false,
+    "description": "小爱全局人格自主演化",
+    "hint": "QQ、B站、小屋共享；保留初始基线与版本。至少6条真实经历、最多每12小时反思一次、每天最多2版。"
+  },
+  "sister_dialogue_daily_limit": {
+    "type": "int",
+    "default": 5,
+    "description": "姐妹交流每日共享上限",
+    "hint": "普通交流与B站分享共用此额度；一整段对话计一次，每段可自然结束，最多10条发言。"
+  },
+  "xiaoai_qq": {
+    "description": "小爱机器人QQ（启用姐妹群对话时填写）",
+    "type": "string",
+    "default": ""
+  },
+  "selena_qq": {
+    "description": "赛琳娜机器人QQ（启用姐妹群对话时填写）",
+    "type": "string",
+    "default": ""
+  }
+}

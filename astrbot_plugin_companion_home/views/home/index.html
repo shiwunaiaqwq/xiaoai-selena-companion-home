@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN" data-resident="xiaoai">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>她们的家</title><link rel="stylesheet" href="./style.css"><link rel="stylesheet" href="./theme.css">
+<script src="/api/plugin/page/bridge-sdk.js"></script><script src="./app.js" defer></script></head>
+<body>
+<main class="home-shell">
+  <header class="topbar"><div class="brand"><span class="brand-star">✧</span><span>她们的家<small>A PLACE TO RETURN TO</small></span></div><nav class="resident-tabs" aria-label="切换角色"><button data-character="xiaoai" class="selected"><span class="tab-dot rose"></span>小爱</button><button data-character="selena"><span class="tab-dot iris"></span>赛琳娜</button></nav><div class="clock"><span id="clock">--:--</span><small id="date">北京时间</small></div></header>
+  <section class="welcome"><div><p class="eyebrow" id="greeting">把平常的日子，慢慢过成喜欢的样子</p><h1 id="home-title">小爱的小窝<span class="title-spark">✧</span></h1><p class="welcome-sub">不着急，这里总有一盏为你留着的灯</p></div><div class="live-status"><span class="status-dot"></span><span id="backend-status">正在连接她的日常</span><button id="reload" class="icon-button" aria-label="刷新页面数据" title="刷新页面数据">↻</button></div></section>
+  <div id="preview-banner" class="preview-banner" hidden>界面预览 · 活动仅为预置作息示例，实例加载后会接入实际状态与记忆</div>
+  <div id="error-banner" class="error-banner" role="alert" hidden></div>
+  <section class="overview">
+    <article class="scene-card card">
+      <div class="scene-copy"><p class="section-kicker"><span class="tiny-star">✦</span>此刻，她在</p><h2 id="current-room">等她安顿下来</h2><p id="current-floor" class="current-floor"></p><p id="current-activity" class="current-activity">正在读取她的日常</p><p id="current-detail" class="current-detail">这个小小的家，会和她的聊天一起慢慢长大</p><div class="scene-meta"><span id="since">—</span><span class="meta-divider"></span><span id="scene-source">日常</span></div><button id="refresh-plan" class="soft-button"><span>✧</span>看看她接下来想做什么</button><p id="plan-feedback" class="plan-feedback" role="status" aria-live="polite"></p></div>
+      <div class="window-art" aria-hidden="true"><div class="window-frame"><div class="night-sky"><i class="sky-star s1"></i><i class="sky-star s2"></i><i class="sky-star s3"></i><i class="sky-star s4"></i><span class="moon"></span><div class="distant-hill h1"></div><div class="distant-hill h2"></div></div><div class="window-cross"></div></div><div class="window-sill"></div><div class="vase"><i></i><i></i><i></i><b></b></div><div class="book b1"></div><div class="book b2"></div><div class="art-caption">a little corner of her day</div></div>
+    </article>
+    <article class="quote-card card"><div class="section-top"><h2>留给你的话</h2><span class="small-symbol" id="quote-symbol">✧</span></div><span class="quote-mark" aria-hidden="true">“</span><blockquote id="quote">先在这里歇一会儿，等你忙完</blockquote><div class="quote-sign"><span class="signature" id="signature">小爱</span><span id="quote-time">等她写下这一刻</span></div><div class="quote-line"></div><div class="quiet-stats"><span><b id="event-count">0</b>今天的片段</span><span><b id="memory-count">—</b>留下的记忆</span><span><b id="note-count">0</b>手边的便签</span></div></article>
+  </section>
+  <section class="content-grid">
+    <article class="rooms-card card"><div class="section-top"><h2>她在哪里</h2><span class="section-note">小屋世界 · 两层共同小屋</span></div><p id="layout-description" class="layout-description"></p><p class="room-area-label">家里 <span id="home-presence"></span></p><div id="home-rooms" class="home-floors"></div><p class="room-area-label outside-label">外面</p><div id="outside-rooms" class="room-grid outside"></div><p class="room-footnote">位置与QQ、小屋世界同步，切换角色只改变查看对象</p></article>
+    <div class="right-stack"><article class="plans-card card"><div class="section-top"><h2>还想做的小事</h2><span class="small-symbol">✶</span></div><ol id="plans"><li>把今天值得留下的片段记下来</li></ol><div class="next-update"><span class="mini-clock">◷</span><span id="next-update">每30～90分钟随机安排日常</span></div></article>
+      <article class="memory-card card"><div class="section-top"><h2>记得的那些事</h2><button class="text-button" id="open-memories">翻开看看 ↗</button></div><div class="memory-preview"><span class="memory-flower">✿</span><p id="memory-preview">正在连接她已有的记忆</p></div><div class="memory-footer"><span id="memory-status">等待同步</span><span>共同经历，慢慢记住</span></div></article></div>
+    <article class="timeline-card card"><div class="section-top"><h2>今天，慢慢走过</h2><label class="date-picker"><input type="date" id="timeline-date" aria-label="选择日常日期"></label></div><div id="timeline" class="timeline"><p class="empty-copy">新的故事，从这一刻开始</p></div><p class="card-footnote">她的日常，还有你们一起走过的片段，都留在这里</p></article>
+    <article class="notes-card card"><div class="section-top"><h2>窗边的便签</h2><span class="section-note">想说的话，留在这里</span></div><div id="notes" class="notes-list"><p class="empty-copy">第一张便签，等你来写</p></div><form id="note-form"><label class="sr-only" for="note-text">写给她的便签</label><textarea id="note-text" placeholder="今天有什么想告诉她的？" rows="2" maxlength="1000" required></textarea><div class="note-form-bottom"><span>只留在你们的家，不会自动发到QQ</span><button type="submit" id="save-note">留给她 <span>↗</span></button></div></form></article>
+    <article class="card household-card"><div class="section-top"><h2>三餐与作息</h2><span class="section-note">做饭与洗碗轮流来</span></div><div id="daily-meals"></div></article>
+    <article class="card housemates-card"><div class="section-top"><h2>屋里的小交谈</h2><span class="section-note">同住的日常</span></div><p id="housemate-presence" class="housemate-presence"></p><div id="housemate-exchanges"></div></article>
+    <article class="card household-card"><div class="section-top"><h2>还在继续的小事</h2><span id="sleep-status"></span></div><div id="house-projects"></div><div id="house-companionship"></div><h3>慢慢养成的习惯</h3><div id="house-habits"></div></article>
+    <article class="card household-card"><div class="section-top"><h2>共同留下的纪念</h2></div><div id="house-mementos"></div><h3>今天值得记住</h3><div id="house-highlights"></div></article>
+    <article class="card household-card"><div class="section-top"><h2>正在写下的话</h2></div><div id="house-draft"></div></article>
+    <article class="card household-card"><div class="section-top"><h2>小屋信箱</h2><span class="section-note">QQ空间已发布的日记与来信</span></div><div id="house-mail"></div></article>
+  </section>
+  <footer><span><i class="footer-star">✧</i>日子不必热闹，有你记得就好</span><span>共同生活 · 北京时间 · 2.2.0</span></footer>
+</main>
+<dialog id="memory-dialog"><div class="section-top"><h2>她记得的那些事</h2><button id="close-memories" class="icon-button" aria-label="关闭记忆">×</button></div><p class="dialog-description">共同经历会慢慢成为记忆，也可以在日常聊天里自然谈起。居所的主动查询和改动，只听你的</p><div id="memory-items"></div></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+</body></html>

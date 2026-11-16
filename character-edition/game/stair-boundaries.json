@@ -1,0 +1,28 @@
+{
+  "down": {
+    "image": "res://assets/renovation/stairs-down.png",
+    "region": [
+      46,
+      106,
+      979,
+      1231
+    ],
+    "size": [
+      1071,
+      1469
+    ]
+  },
+  "up": {
+    "image": "res://assets/renovation/stairs-wall-up.png",
+    "region": [
+      95,
+      72,
+      832,
+      1411
+    ],
+    "size": [
+      1024,
+      1536
+    ]
+  }
+}
