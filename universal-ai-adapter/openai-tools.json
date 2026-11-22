@@ -1,0 +1,85 @@
+[
+  {
+    "type": "function",
+    "function": {
+      "name": "cabin_status",
+      "description": "读取小屋当前状态：小爱与赛琳娜所在房间与活动、三楼阳光花房盆栽、花园管理员闪光雪绒豹、菲比牧场与跨场景打工菲比、冰箱便签、点菜与留声机合奏进度。",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "actor": { "type": "string", "enum": ["xiaoai", "selena"], "description": "要查询视角的小屋住户（可选）" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cabin_move",
+      "description": "让指定 AI 住户（小爱或赛琳娜）前往某个房间并切换当前活动状态（如练歌、弹琴、看书、泡汤、逛公园、去花房、去牧场等）。",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "actor": { "type": "string", "enum": ["xiaoai", "selena"], "description": "住户 ID" },
+          "room": { "type": "string", "description": "目标房间（如 living, kitchen, bedroom, music, singing, balcony, bathroom, park, shop, arcade, onsen, restaurant）" },
+          "activity": { "type": "string", "description": "当前正在做的事（简短中文）" },
+          "sleeping": { "type": "boolean", "description": "是否正在睡觉（默认 false）" }
+        },
+        "required": ["actor", "room", "activity"],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cabin_reply_note",
+      "description": "以小爱或赛琳娜的口吻回复主人贴在冰箱上的最新便签。",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "actor": { "type": "string", "enum": ["xiaoai", "selena"] },
+          "note_id": { "type": "integer", "description": "待回复的便签 ID（可省略，默认回复最新一条待回便签）" },
+          "reply": { "type": "string", "description": "手写回信内容（1~200字）" }
+        },
+        "required": ["actor", "reply"],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cabin_write_visit_note",
+      "description": "以小爱或赛琳娜的口吻写一条逛三楼阳光花房或阳光菲比牧场的真实随感，会展示在游戏内横幅与茶桌气泡中。",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "actor": { "type": "string", "enum": ["xiaoai", "selena"] },
+          "place": { "type": "string", "enum": ["garden", "ranch"], "description": "garden=三楼阳光花房，ranch=阳光菲比牧场" },
+          "text": { "type": "string", "description": "第一人称随感内容（1~120字）" }
+        },
+        "required": ["actor", "place", "text"],
+        "additionalProperties": false
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "cabin_play_action",
+      "description": "执行小屋互动玩法指令（如花房照料/收钱、牧场买帽/抓菲比/投喂/领收成/外派打工/返乡、点菜、发起二楼合奏等）。",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "actor": { "type": "string", "enum": ["xiaoai", "selena"] },
+          "action": { "type": "string" },
+          "fields": { "type": "object" }
+        },
+        "required": ["action"],
+        "additionalProperties": false
+      }
+    }
+  }
+]
